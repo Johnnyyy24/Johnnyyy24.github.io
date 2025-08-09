@@ -1,4 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'tyc.tw'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Johnny's"
 theme = "dario"
+
+copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."

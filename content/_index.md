@@ -2,4 +2,4 @@
 title: "About my perceptions of the world :)"
 ---
 
-LFGGG
+About my perceptions of the world 

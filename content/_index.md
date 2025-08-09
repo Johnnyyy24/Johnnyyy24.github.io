@@ -1,5 +1,5 @@
 ---
-title: "About my perceptions of the world"
+title: "About my perceptions of the world :)"
 ---
 
-LFG 
+LFGGG

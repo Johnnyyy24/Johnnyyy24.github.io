@@ -1,7 +1,7 @@
 baseURL = "https://tyc.tw/"
 languageCode = "en-us"
 title = "Johnny's"
-theme = "dario" # 我們先保持註解狀態，直到最根本的問題解決
+theme = "dario" 
 
 copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
 
@@ -9,4 +9,4 @@ copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
 [services]
   [services.googleAnalytics]
     ID = "G-ZEY9B2T7QK"
-    
+

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首頁 on Johnny&#39;s</title>
+    <title>Johnny&#39;s</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in 首頁 on Johnny&#39;s</description>
+    <description>Recent content on Johnny&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>

@@ -7,6 +7,42 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 10 Aug 2025 17:29:14 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>http://localhost:1313/tags/blogging/</link>
+      <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/blogging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creator Economy</title>
+      <link>http://localhost:1313/tags/creator-economy/</link>
+      <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/creator-economy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Ownership</title>
+      <link>http://localhost:1313/tags/digital-ownership/</link>
+      <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/digital-ownership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medium</title>
+      <link>http://localhost:1313/tags/medium/</link>
+      <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/medium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/tags/web-development/</link>
+      <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/web-development/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

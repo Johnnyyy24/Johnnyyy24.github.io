@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 03 Aug 2025 17:56:29 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 17:29:14 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Left Medium to Build My Own Website</title>
+      <link>http://localhost:1313/posts/why-left-medium/</link>
+      <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
+      <guid>http://localhost:1313/posts/why-left-medium/</guid>
+      <description>&lt;p&gt;For the past six years, I&amp;rsquo;ve been writing on Medium, on and off. I&amp;rsquo;ve flirted with other platforms too (Substack, X, you name it). But none of them ever felt right. It never felt like I was in control. At the end of the day, you realize these platforms are just trying to monetize &lt;em&gt;you&lt;/em&gt;, even when you&amp;rsquo;re the one supplying the content for their marketplace. And honestly, that&amp;rsquo;s some serious bullshit.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Digital Asset Treasuries （一）起源及入門知識</title>
       <link>http://localhost:1313/posts/dat-1/</link>

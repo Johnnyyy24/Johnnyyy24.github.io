@@ -1,11 +1,12 @@
-baseURL = 'tyc.tw'
-languageCode = 'en-us'
+baseURL = "https://tyc.tw/"
+languageCode = "en-us"
 title = "Johnny's"
-theme = "dario"
+theme = "dario" # 我們先保持註解狀態，直到最根本的問題解決
 
 copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
 
 # --- Google Analytics Service --
 [services]
-    [services.googleAnalytics]
-        ID = "G-ZEY9B2T7QK"
+  [services.googleAnalytics]
+    ID = "G-ZEY9B2T7QK"
+    

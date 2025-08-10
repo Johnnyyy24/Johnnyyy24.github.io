@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首頁 on Johnny&#39;s</title>
-    <link>https://tyc.tw/</link>
-    <description>Recent content in 首頁 on Johnny&#39;s</description>
+    <title>Posts on Johnny&#39;s</title>
+    <link>https://tyc.tw/posts/</link>
+    <description>Recent content in Posts on Johnny&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
     <lastBuildDate>Sun, 10 Aug 2025 12:21:30 +0800</lastBuildDate>
-    <atom:link href="https://tyc.tw/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tyc.tw/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Asset Treasuries （一）起源及入門知識</title>
       <link>https://tyc.tw/posts/dat-1/</link>

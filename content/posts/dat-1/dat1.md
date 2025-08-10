@@ -14,9 +14,8 @@ Crypto 最強的事情一向都是「可組合性」這件事情。拿 $ETH 為�
 第二層是能夠做 restaking — 可以想像成透過質押自己的 $ETH 來幫一些需要信任假設的基礎建設 （Infrastructure）項目背書，從而賺取額外的收益
 第三層是還能夠將這些 restaking 後所拿到的 token 再存進 lending protocol, Pendle 等協議再繼續獲得提供流動性的收益，甚至能再借出穩定幣來再買入更多 $ETH，不斷將收益疊高
 
-![lido](images/dat1/lido-lego.png)
-![pizza](images/dat-1/mara-pizza.avif)
-![zz](images/dat-1/pick.jpg)
+![lido-2](lido-lego.png)
+![zz](pick.jpg)
 ![](https://cimg.cnyes.cool/prod/news/4834187/o/c03cdf6c8e0bfd68bb55b7763c420e02.jpg)
 
 A simple example of DeFi Lego. Src: Lido

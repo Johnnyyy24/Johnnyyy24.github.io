@@ -6,6 +6,6 @@ theme = "dario"
 copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
 
 # --- Google Analytics Service --
-[serviecs]
+[services]
     [services.googleAnalytics]
         ID = "G-ZEY9B2T7QK"

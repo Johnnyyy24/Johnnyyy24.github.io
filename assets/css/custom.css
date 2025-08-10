@@ -1,0 +1,4 @@
+:root {
+    /* 將內容最大寬度從預設的 620px 覆蓋成 800px */
+    --content-max-width: 800px; 
+  }

@@ -1,6 +1,7 @@
 ---
 title: "Why I Left Medium to Build My Own Website"
 date: 2025-08-10T17:29:14+08:00
+series: ["Thoughts"]
 draft: false
 description: "After six years of writing on platforms like Medium, I'm finally ditching them to build my own corner of the internet. Here's why."
 tags:

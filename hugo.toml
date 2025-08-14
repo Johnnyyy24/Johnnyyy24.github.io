@@ -2,11 +2,21 @@ baseURL = "https://tyc.tw/"
 languageCode = "en-us"
 title = "Johnny's"
 theme = "dario" 
+preserveTaxonomyNames = true
 
 copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
+
+
+[taxonomies]
+  series = "series"
+  tag = "tags"
+  category = "categories"
 
 # --- Google Analytics Service --
 [services]
   [services.googleAnalytics]
     ID = "G-ZEY9B2T7QK"
 
+# --- Custom Series Order ---
+[params.series_order]
+  order = ["DAT Series", "Crypto","Thoughts"]

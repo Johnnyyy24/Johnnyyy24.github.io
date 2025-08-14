@@ -2,6 +2,7 @@
 title = "Digital Asset Treasuries （一）起源及入門知識"
 date = 2025-08-03T17:56:29+08:00
 draft = false
+series = ["DAT Series"]
 +++
 
 > 在這系列文章中，我將分析 Digital Asset Treasuries (DAT) 公司的核心架構，讓你讀懂 MicroStrategy ($MSTR), Sharplink Gaming ($SBET) 這些公司到底背後運作原理是什麼，以及為什麽我們正在經歷資本市場史上最有趣的金融革命，以及泡沫。

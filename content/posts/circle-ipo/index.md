@@ -2,6 +2,7 @@
 title = "Circle ($CRCL) 股價狂漲 7 倍 — 是泡沫還是穩定幣的 iPhone 時刻"
 date = 2025-06-22T19:45:36+08:00
 draft = false
+series = ["Crypto"]
 +++
 
 ![](circle_1.webp)

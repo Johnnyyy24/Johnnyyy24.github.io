@@ -1,6 +1,7 @@
 +++
 title = "Digital Asset Treasuries （二）MicroStrategy 的可轉債及特別股"
 date = 2025-08-14T11:56:29+08:00
+series = ["DAT Series"]
 draft = false
 +++
 

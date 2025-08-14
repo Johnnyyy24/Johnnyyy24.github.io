@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 10 Aug 2025 17:29:14 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 11:56:29 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Asset Treasuries （二）MicroStrategy 的可轉債及特別股</title>
+      <link>http://localhost:1313/posts/dat-2/</link>
+      <pubDate>Thu, 14 Aug 2025 11:56:29 +0800</pubDate>
+      <guid>http://localhost:1313/posts/dat-2/</guid>
+      <description>&lt;p&gt;在上一篇文章中，我們討論了 DAT 的歷史以及其演化，並在結尾處我們總結了 DAT 玩的核心遊戲。&lt;/p&gt;&#xA;&lt;p&gt;接下來，我們將細細拆解最引人注目，也是最成功的 DAT 代表：MicroStrategy ($MSTR)，是如何透過金融工程創造出比特幣的永動機。在這篇文章中，我們將解釋 MSTR 融資的三大手段中的其中兩個：&lt;strong&gt;發行可轉債及特別股。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mstr-的商業模式簡述&#34;&gt;MSTR 的商業模式簡述&lt;/h2&gt;&#xA;&lt;p&gt;首先，MSTR 的「商業模式」非常簡單粗暴，簡單畫圖表示如下：&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;mstr-1.png&#34; alt=&#34;mstr-flow&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;基本上三個動作：借錢、買比特幣，創造出更多 Leverage on capital market。&lt;/p&gt;&#xA;&lt;p&gt;買比特幣本身只是一個簡單的操作，這套模式真正的重點在於「錢從哪裡來？」以及「槓桿是如何被創造的？」。&lt;/p&gt;&#xA;&lt;h2 id=&#34;mstr-的唯一目標&#34;&gt;MSTR 的唯一目標&lt;/h2&gt;&#xA;&lt;p&gt;MSTR 的 Founder Michael Saylor 為 Strategy 創造出了一個很有趣的名詞：BTC Yield（比特幣收益率）。BTC Yield 和我們熟知的 DeFi 收益率定義不同，Michael Saylor 的定義為「在單位時間內，每一股 MSTR 所持有的 $BTC 的變化量」。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;而 MSTR 的唯一北極星、唯一使命，就是持續為股東持續創造出 BTC Yield&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;舉例來說，假設一年前每股 MSTR 股東算下來平均持有 0.1 個 $BTC，到了今天平均每股變成 0.2 個 $BTC，在 Saylor 的定義裡面，&lt;strong&gt;這一年 MSTR 的 BTC Yield 即為 100%&lt;/strong&gt;。要打個比方的話，我認為概念類似從&lt;strong&gt;幣本位&lt;/strong&gt;思考的收益率。&lt;/p&gt;&#xA;&lt;p&gt;但請先記住這個概念，因其將貫穿整篇文章，以及 MSTR 整間公司做的所有事情：&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;「MSTR 所做的一切都是為了創造持續性的 BTC Yield」。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why I Left Medium to Build My Own Website</title>
       <link>http://localhost:1313/posts/why-left-medium/</link>

@@ -1,0 +1,26 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+        <style>
+            svg {
+              background-color: #f0efea;
+            }
+            @font-face {
+              font-family: 'Newsreader';
+              src: url('/fonts/Newsreader.woff2') format('woff2');
+            }
+            .title, .description {
+              font-family: 'Newsreader', serif;
+              fill: #141413;
+              text-anchor: start;
+              line-height: 1.1;
+            }
+        </style>
+        <rect width="1200" height="630" fill="#f0efea" />
+        <foreignObject x="80" y="200" width="840" height="300">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <div style="font-family: Newsreader, serif; font-size: 78px; font-weight: 600; margin-bottom: 20px; word-wrap: break-word;">Digital Asset Treasuries （二）MicroStrategy 的可轉債及特別股</div>
+                <div style="font-family: Newsreader, serif; font-size: 70px; font-weight: 400; word-wrap: break-word;">在上一篇文章中，我們討論了 DAT 的歷史以及其演化，並在結尾處我們總結了 DAT 玩的核心遊戲。 接下來，我們將細細拆解最引人注目，也是最成功的 DAT 代表：MicroStrategy ($MSTR)，是如何透過金融工程創造出比特幣的永動機。在這篇文章中，我們將解釋 MSTR 融資的三大手段中的 …</div>
+            </div>
+        </foreignObject>
+    </svg>
+    

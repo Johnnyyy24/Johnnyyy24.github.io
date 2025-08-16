@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 14 Aug 2025 11:56:29 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 Aug 2025 11:56:29 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Asset Treasuries （三）MicroStrategy 的普通股</title>
+      <link>http://localhost:1313/posts/dat-3/</link>
+      <pubDate>Sat, 16 Aug 2025 11:56:29 +0800</pubDate>
+      <guid>http://localhost:1313/posts/dat-3/</guid>
+      <description>&lt;p&gt;上一篇文章中，我們 Cover 了 MicroStrategy 的兩大募資殺招：可轉債及特別股。而其第三招為發行普通股。但在那之前，我們先了解一下 MicroStraregy 的 mNAV 的概念：&lt;/p&gt;&#xA;&lt;h2 id=&#34;mnav&#34;&gt;mNAV&lt;/h2&gt;&#xA;&lt;p&gt;mNAV 是 MSTR 訂出的一個新指標，算法是把整個 MSTR 的 Enterprise Value / Held $BTC Value，概念上有點類似於傳統估值的 P/B。其中分子的 Enterprise 定義如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(A) + 全部已發行 MSTR 普通股（A 類 + B 類）的總市值 = 已發行股數 × A 類股在 Nasdaq 的收盤價&lt;/li&gt;&#xA;&lt;li&gt;(B) + 公司所有債務本金總額&lt;/li&gt;&#xA;&lt;li&gt;(C) + 公司所有永續優先股的名義總價值&lt;/li&gt;&#xA;&lt;li&gt;(D) − 公司最近一次披露的現金餘額&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;從這個公式可以看出，mNAV 大概可以解釋為「根據 MSTR 持有的 $BTC，市場願意給其估值的倍數」。目前 MSTR 的 mNAV 約為 1.64，而歷史上則約在 1-4 之間徘徊。此外，如 Strategy Tracker 這種網站也會用 NAV Premium （定義：MSTR market cap / Held $BTC value）的概念來評估 MSTR 的估值倍數：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Digital Asset Treasuries （二）MicroStrategy 的可轉債及特別股</title>
       <link>http://localhost:1313/posts/dat-2/</link>

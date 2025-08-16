@@ -1,5 +1,5 @@
 +++
-title = "Digital Asset Treasuries （三）MicroStrategy 的普通股與 "BTC Yield""
+title = "Digital Asset Treasuries （三）MicroStrategy 的普通股與 BTC Yield"
 date = 2025-08-16T11:56:29+08:00
 series = ["DAT Series"]
 draft = false

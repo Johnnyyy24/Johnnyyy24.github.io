@@ -104,7 +104,7 @@ MSTR 在 2024 年 10 月曾宣布其 21/21 的 Capital Plan：其將在 2027 年
 
 ## BTC Yield 作為 Key Metrics 是不可持續的
 
-以上，我們了解了 MSTR 籌資的核心機制，以及其對自身北極星 metrics “BTC Yield” 分別的影響。然而，**長期創造 BTC Yield 將會越來越昂貴，且高機率是不可持續的。**目前，Michael Saylor 對於 2025 年的 BTC Yield 訂定的目標為 25%，然而，從下表我們可以看出每一個 basis point of BTC Yield 的成本，正在隨著 $BTC 的價格上漲，以及 MSTR 本身市值越來越大而不斷提高：
+以上，我們了解了 MSTR 籌資的核心機制，以及其對自身北極星 metrics “BTC Yield” 分別的影響。然而，長期創造 BTC Yield 將會越來越昂貴，且高機率是不可持續的。目前，Michael Saylor 對於 2025 年的 BTC Yield 訂定的目標為 25%，然而，從下表我們可以看出每一個 basis point of BTC Yield 的成本，正在隨著 $BTC 的價格上漲，以及 MSTR 本身市值越來越大而不斷提高：
 
 ![dat3-9](dat3-9.png)
 

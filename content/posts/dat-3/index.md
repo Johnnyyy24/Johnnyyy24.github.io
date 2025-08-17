@@ -7,7 +7,7 @@ draft = false
 
 
 
-上一篇文章中，我們 Cover 了 MicroStrategy 的兩大募資殺招：可轉債及特別股。而其第三招為發行普通股。但在那之前，我們先了解一下 MicroStraregy 的 mNAV 的概念：
+上一篇文章中，我們 Cover 了 MicroStrategy 的兩大募資殺招：可轉債及特別股。而其第三招為發行普通股。但在那之前，我們先了解一下 MicroStrategy 的 mNAV 的概念：
 
 ## mNAV
 

@@ -70,7 +70,7 @@ A 2024 analysis showed that **no major U.S. airline would have been profitable f
 
 ## Finding Crypto Examples
 
-In crypto, I think such case is rarer. Maybe it’s largely because crypto as a whole is still over-indexing on trading, so when an industry is focusing on a single dimension there is a finite options of business models you can go with (but ofc, we should be creative!). Some cases on top of my mind right now are like: 
+In crypto, I think these kinds of cases are rarer. The space is still heavily skewed toward trading, and when an industry is over-indexed on a single dimension, the range of business models naturally feels limited. That said, there is always room to get creative. A few examples that come to mind right now are:
 
 ### Metamask
 

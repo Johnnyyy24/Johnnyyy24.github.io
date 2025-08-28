@@ -3,36 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/blogging/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/creator-economy/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/dad-you-actually-wrote-code/</loc>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/digital-ownership/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/medium/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/razor-and-blades-model/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/thoughts/</loc>
-    <lastmod>2025-08-25T20:29:14+08:00</lastmod>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/web-development/</loc>
+    <lastmod>2025-08-28T11:29:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/razor-and-blades-model/</loc>
     <lastmod>2025-08-25T20:29:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/dat-series/</loc>

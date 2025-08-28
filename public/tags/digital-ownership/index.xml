@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 25 Aug 2025 20:29:14 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 11:29:14 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/digital-ownership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dad, You Actually Wrote Code?</title>
+      <link>http://localhost:1313/posts/dad-you-actually-wrote-code/</link>
+      <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
+      <guid>http://localhost:1313/posts/dad-you-actually-wrote-code/</guid>
+      <description>&lt;p&gt;I’ve been heads-down the past few weeks building stuff with AI tools and… wow. Multiple takeaways, but the first layer would be the vibe coding stack is already stupidly powerful. If you have even a baby-level grasp of how apps fit together, you can go end-to-end and ship a mini-app. Run a few loops, standardize your favorite backend skeleton, and you can mass-produce. In 2025, going from idea to MVP is literally &lt;em&gt;one step&lt;/em&gt;. Blink and you’re deploying.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Razor-And-Blades Model</title>
       <link>http://localhost:1313/posts/razor-and-blades-model/</link>

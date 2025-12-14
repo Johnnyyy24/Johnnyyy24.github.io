@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-us" dir="ltr" class="kind-page">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Here are my immediate thoughts after digging into HIP-3. I think HIP-3 is a brilliant move to challenge the many centralized exchanges out there that …">
+
+    <title>HIP-3: Democratization of Crypto Brokers</title>
+    <link rel="canonical" href="http://localhost:1313/posts/hip-3-brokers/">
+
+
+
+<meta property="og:title" content="HIP-3: Democratization of Crypto Brokers">
+<meta property="og:description" content="Here are my immediate thoughts after digging into HIP-3. I think HIP-3 is a brilliant move to challenge the many centralized exchanges out there that …">
+<meta property="og:image" content="http://localhost:1313/og/og-image-c8a2552fa5a1388990fd0dcb7c3037db.svg">
+<meta property="og:image:type" content="image/svg+xml">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://localhost:1313/posts/hip-3-brokers/">
+<meta property="og:locale" content="en-us">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HIP-3: Democratization of Crypto Brokers">
+<meta name="twitter:description" content="Here are my immediate thoughts after digging into HIP-3. I think HIP-3 is a brilliant move to challenge the many centralized exchanges out there that …">
+<meta name="twitter:image" content="http://localhost:1313/og/og-image-c8a2552fa5a1388990fd0dcb7c3037db.svg">
+
+    <link rel="preload" href="/fonts/Newsreader.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Newsreader-italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/css/default.min.7cf2b9c1994c9982455e0514bfcef87693f541b72b8359792c45c21d67968a34.css" integrity="sha256-fPK5wZlMmYJFXgUUv874dpP1Qbcrg1l5LEXCHWeWijQ=">
+    <link rel="stylesheet" href="/css/custom.min.ea520e01b8311cd3fdd33d21ad525e6301ded034d9ae963b61a1516e09478249.css" integrity="sha256-6lIOAbgxHNP90z0hrVJeYwHe0DTZrpY7YaFRbglHgkk=">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script src="/js/darkmode.min.9211af6d380489c7cf64d4b18a1e49e75be2bebf92031d2165eb6c20bc59c6a2.js" integrity="sha256-khGvbTgEicfPZNSxih5J51vivr&#43;SAx0hZetsILxZxqI=" defer></script>
+    <script src="/js/footnotes.min.e049c26d7ddda424be30c222001b5dbd0890e1bd0659fa171e586e92158e1286.js" integrity="sha256-4EnCbX3dpCS&#43;MMIiABtdvQiQ4b0GWfoXHlhukhWOEoY=" defer></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEY9B2T7QK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZEY9B2T7QK');
+</script>
+</head>
+
+
+<body>
+<header>
+    <div>
+        <h1>
+            <a href="http://localhost:1313/">Johnny&#39;s</a>
+        </h1>
+        <div class="header-controls">
+            <div class="toggle-switch">
+                <input type="checkbox" id="darkModeToggle" class="toggle-input" aria-label="Toggle dark mode">
+                <label for="darkModeToggle" class="toggle-label">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main class="content-wrapper">
+        <article class="content-container">
+
+
+    <h1>HIP-3: Democratization of Crypto Brokers</h1>
+    <h4></h4>
+    <p class="author-date"><time datetime="2025-11-26T19:45:36+08:00">November 26, 2025</time></p>
+
+<p>Here are my immediate thoughts after digging into HIP-3. I think HIP-3 is a brilliant move to challenge the many centralized exchanges out there that have zero differentiation. Before this, Hyperliquid was running a <strong>“liquidity-as-a-service”</strong> playbook; now, they are shifting to <strong>“infrastructure-as-a-service”</strong> to expand their offerings (and defensibility).</p>
+<p>First, let’s recap what HIP-3 does:</p>
+<p>HIP-3 represents <strong>Builder-deloyed Perpetuals</strong>. The deployer needs to stake 500K HYPE (~$15M) as provided economic security to the ticker. They also need to set the oracle definition, leverage limits, and market settlements, basically managing the market, and in return they get to keep 50% of the total trading fee.</p>
+<p><img src="hip3-1.png" alt="hip-3-1"></p>
+<p>To date, we’ve seen some players like <a href="https://x.com/tradexyz">@tradexyz</a> and <a href="https://x.com/felixprotocol">@Felix</a> have deployed several US equity trading pairs using HIP-3. The flagship pair was XYZ, got ~$300M daily trading volume in the last 24h. You can see Hyperliquid is going quite serious about it as they kicked off the growth mode, which lowered the trading fees by 90%.</p>
+<p><img src="hip3-2.png" alt="hip-3-2"></p>
+<p>This framework actually reminds me back to the Forex trading days. In Forex, the most-used trading brokers are MT4 and MT5, they are different versions of software developed by MetaQuotes, a Russian software company.</p>
+<p>In different local markets, you’d have different white-label brokers setting their own orderbooks and trading pairs, but backends they use the same MT4 infra and EAs (Expert Advisors, similar to trading scripts).</p>
+<p>Before crypto days, Forex trading in Chinese speaking countries was crazy, and there were probably hundreds of, if not thousands of small local brokers getting users literally on the ground through very localized groups and workshops. That grassroot approach is what got MT4, MT5 successful and well adopted in the world and helped them win the market shares of retail market.</p>
+<p><img src="hip3-3.png" alt="hip-3-3"></p>
+<p>Back to Hyperliquid, HIP-3 is the same play, where Hyperliquid here is comparable to MT4, MT5, and the deployers of HIP-3 are essentially brokers, who own the autonomy to set up the market the way they prefer, while leveraging the trading infra that Hyperliquid has built out. Essentially, you can think of each of them as if they are running a small exchange themselves.</p>
+<p>Before HIP-3, this was not possible as building out a battle-tested trading infrastructure is very costly, it can easily cost you tens of millions, if not more, this overhead is why many people got cold feet, not to mention even if you spent that amount of money you can still get hacked and stuff. That excludes many brokers that actually have the ability to list and manage interest markets with their domain knowledge.</p>
+<p>But now with HIP-3, we can expect these brokers/deployers to work their magic.</p>
+<p>US equity is ofc the low-hanging fruit here, which apparently @tradexyz is doing an amazing job.</p>
+<p>We’ve also seen people from <a href="https://x.com/TroveMarkets">@TroveMarkets</a> who know collectibles (which is also a very interesting &amp; large market) ready to launch interesting perps like $POKE, $ZARD.</p>
+<p><img src="hip3-4.jpeg" alt="hip-3-4"></p>
+<p>Of course, right now the overhead of staking 500K $HYPE is still a lot, most deployer does not have that money. Silver lining here is that</p>
+<p>1)The cost is expected to go down gradually</p>
+<p>2)$HYPE LST/vault product can potentially solve this (which I’ll cover in the next piece)</p>
+<p>In short, I’m very bullish that HIP-3 will unlock the many different instruments on Hyperliquid, and the endgame seems clearer and clearer now:</p>
+<p>They are the best liquidity layer for crypto assets already, now they are expanding to be the best liquidity layer for <strong>all assets</strong> with the democratization of brokers.</p>
+
+
+
+        </article>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <p>Copyright © 2025 Johnny Chuang. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>

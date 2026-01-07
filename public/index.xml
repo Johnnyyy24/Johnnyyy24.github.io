@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Johnny&#39;s</title>
-    <link>http://localhost:1313/</link>
+    <link>https://tyc.tw/</link>
     <description>Recent content on Johnny&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
     <lastBuildDate>Wed, 26 Nov 2025 19:45:36 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tyc.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HIP-3: Democratization of Crypto Brokers</title>
-      <link>http://localhost:1313/posts/hip-3-brokers/</link>
+      <link>https://tyc.tw/posts/hip-3-brokers/</link>
       <pubDate>Wed, 26 Nov 2025 19:45:36 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hip-3-brokers/</guid>
+      <guid>https://tyc.tw/posts/hip-3-brokers/</guid>
       <description>&lt;p&gt;Here are my immediate thoughts after digging into HIP-3. I think HIP-3 is a brilliant move to challenge the many centralized exchanges out there that have zero differentiation. Before this, Hyperliquid was running a &lt;strong&gt;“liquidity-as-a-service”&lt;/strong&gt; playbook; now, they are shifting to &lt;strong&gt;“infrastructure-as-a-service”&lt;/strong&gt; to expand their offerings (and defensibility).&lt;/p&gt;&#xA;&lt;p&gt;First, let’s recap what HIP-3 does:&lt;/p&gt;&#xA;&lt;p&gt;HIP-3 represents &lt;strong&gt;Builder-deloyed Perpetuals&lt;/strong&gt;. The deployer needs to stake 500K HYPE (~$15M) as provided economic security to the ticker. They also need to set the oracle definition, leverage limits, and market settlements, basically managing the market, and in return they get to keep 50% of the total trading fee.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dad, You Actually Wrote Code?</title>
-      <link>http://localhost:1313/posts/dad-you-actually-wrote-code/</link>
+      <link>https://tyc.tw/posts/dad-you-actually-wrote-code/</link>
       <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dad-you-actually-wrote-code/</guid>
+      <guid>https://tyc.tw/posts/dad-you-actually-wrote-code/</guid>
       <description>&lt;p&gt;I’ve been heads-down the past few weeks building stuff with AI tools and… wow. Multiple takeaways, but the first layer would be the vibe coding stack is already stupidly powerful. If you have even a baby-level grasp of how apps fit together, you can go end-to-end and ship a mini-app. Run a few loops, standardize your favorite backend skeleton, and you can mass-produce. In 2025, going from idea to MVP is literally &lt;em&gt;one step&lt;/em&gt;. Blink and you’re deploying.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Razor-And-Blades Model</title>
-      <link>http://localhost:1313/posts/razor-and-blades-model/</link>
+      <link>https://tyc.tw/posts/razor-and-blades-model/</link>
       <pubDate>Mon, 25 Aug 2025 20:29:14 +0800</pubDate>
-      <guid>http://localhost:1313/posts/razor-and-blades-model/</guid>
+      <guid>https://tyc.tw/posts/razor-and-blades-model/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;razor-1.jpg&#34; alt=&#34;razor-1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For the longest time, I told myself my obsession with startups and venture capital was just my ADHD-addled brain wanting to be cooler than everyone else in my early 20s. But about a year ago, I realized that was bullshit. My real passion is figuring out how money &lt;em&gt;&lt;strong&gt;actually&lt;/strong&gt;&lt;/em&gt; moves and how people build business models that are borderline genius in their deception.&lt;/p&gt;&#xA;&lt;p&gt;I’m talking about the &lt;strong&gt;contrarian&lt;/strong&gt; hustles. The ones where you use a service every day, thinking you know the deal, only to find out their main business is something else entirely. I live for that &lt;em&gt;&lt;strong&gt;&amp;ldquo;oh, you clever lil bitch&amp;rdquo;&lt;/strong&gt;&lt;/em&gt; moment of realization. The most famous example is the one that started it all: the razor-and-blades model.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Asset Treasuries （三）MicroStrategy 的普通股與 BTC Yield</title>
-      <link>http://localhost:1313/posts/dat-3/</link>
+      <link>https://tyc.tw/posts/dat-3/</link>
       <pubDate>Sat, 16 Aug 2025 11:56:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dat-3/</guid>
+      <guid>https://tyc.tw/posts/dat-3/</guid>
       <description>&lt;p&gt;上一篇文章中，我們 Cover 了 MicroStrategy 的兩大募資殺招：可轉債及特別股。而其第三招為發行普通股。但在那之前，我們先了解一下 MicroStrategy 的 mNAV 的概念：&lt;/p&gt;&#xA;&lt;h2 id=&#34;mnav&#34;&gt;mNAV&lt;/h2&gt;&#xA;&lt;p&gt;mNAV 是 MSTR 訂出的一個新指標，算法是把整個 MSTR 的 Enterprise Value / Held $BTC Value，概念上有點類似於傳統估值的 P/B。其中分子的 Enterprise 定義如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(A) + 全部已發行 MSTR 普通股（A 類 + B 類）的總市值 = 已發行股數 × A 類股在 Nasdaq 的收盤價&lt;/li&gt;&#xA;&lt;li&gt;(B) + 公司所有債務本金總額&lt;/li&gt;&#xA;&lt;li&gt;(C) + 公司所有永續優先股的名義總價值&lt;/li&gt;&#xA;&lt;li&gt;(D) − 公司最近一次披露的現金餘額&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;從這個公式可以看出，mNAV 大概可以解釋為「根據 MSTR 持有的 $BTC，市場願意給其估值的倍數」。目前 MSTR 的 mNAV 約為 1.64，而歷史上則約在 1-4 之間徘徊。此外，如 Strategy Tracker 這種網站也會用 NAV Premium （定義：MSTR market cap / Held $BTC value）的概念來評估 MSTR 的估值倍數：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Asset Treasuries （二）MicroStrategy 的可轉債及特別股</title>
-      <link>http://localhost:1313/posts/dat-2/</link>
+      <link>https://tyc.tw/posts/dat-2/</link>
       <pubDate>Thu, 14 Aug 2025 11:56:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dat-2/</guid>
+      <guid>https://tyc.tw/posts/dat-2/</guid>
       <description>&lt;p&gt;在上一篇文章中，我們討論了 DAT 的歷史以及其演化，並在結尾處我們總結了 DAT 玩的核心遊戲。&lt;/p&gt;&#xA;&lt;p&gt;接下來，我們將細細拆解最引人注目，也是最成功的 DAT 代表：MicroStrategy ($MSTR)，是如何透過金融工程創造出比特幣的永動機。在這篇文章中，我們將解釋 MSTR 融資的三大手段中的其中兩個：&lt;strong&gt;發行可轉債及特別股。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mstr-的商業模式簡述&#34;&gt;MSTR 的商業模式簡述&lt;/h2&gt;&#xA;&lt;p&gt;首先，MSTR 的「商業模式」非常簡單粗暴，簡單畫圖表示如下：&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;mstr-1.png&#34; alt=&#34;mstr-flow&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;基本上三個動作：借錢、買比特幣，創造出更多 Leverage on capital market。&lt;/p&gt;&#xA;&lt;p&gt;買比特幣本身只是一個簡單的操作，這套模式真正的重點在於「錢從哪裡來？」以及「槓桿是如何被創造的？」。&lt;/p&gt;&#xA;&lt;h2 id=&#34;mstr-的唯一目標&#34;&gt;MSTR 的唯一目標&lt;/h2&gt;&#xA;&lt;p&gt;MSTR 的 Founder Michael Saylor 為 Strategy 創造出了一個很有趣的名詞：BTC Yield（比特幣收益率）。BTC Yield 和我們熟知的 DeFi 收益率定義不同，Michael Saylor 的定義為「在單位時間內，每一股 MSTR 所持有的 $BTC 的變化量」。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;而 MSTR 的唯一北極星、唯一使命，就是持續為股東持續創造出 BTC Yield&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;舉例來說，假設一年前每股 MSTR 股東算下來平均持有 0.1 個 $BTC，到了今天平均每股變成 0.2 個 $BTC，在 Saylor 的定義裡面，&lt;strong&gt;這一年 MSTR 的 BTC Yield 即為 100%&lt;/strong&gt;。要打個比方的話，我認為概念類似從&lt;strong&gt;幣本位&lt;/strong&gt;思考的收益率。&lt;/p&gt;&#xA;&lt;p&gt;但請先記住這個概念，因其將貫穿整篇文章，以及 MSTR 整間公司做的所有事情：&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;「MSTR 所做的一切都是為了創造持續性的 BTC Yield」。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Left Medium to Build My Own Website</title>
-      <link>http://localhost:1313/posts/why-left-medium/</link>
+      <link>https://tyc.tw/posts/why-left-medium/</link>
       <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
-      <guid>http://localhost:1313/posts/why-left-medium/</guid>
+      <guid>https://tyc.tw/posts/why-left-medium/</guid>
       <description>&lt;p&gt;For the past six years, I&amp;rsquo;ve been writing on Medium, on and off. I&amp;rsquo;ve flirted with other platforms too (Substack, X, you name it). But none of them ever felt right. It never felt like I was in control. At the end of the day, you realize these platforms are just trying to monetize &lt;em&gt;you&lt;/em&gt;, even when you&amp;rsquo;re the one supplying the content for their marketplace. And honestly, that&amp;rsquo;s some serious bullshit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Asset Treasuries （一）起源及入門知識</title>
-      <link>http://localhost:1313/posts/dat-1/</link>
+      <link>https://tyc.tw/posts/dat-1/</link>
       <pubDate>Sun, 03 Aug 2025 17:56:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dat-1/</guid>
+      <guid>https://tyc.tw/posts/dat-1/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;在這系列文章中，我將分析 Digital Asset Treasuries (DAT) 公司的核心架構，讓你讀懂 MicroStrategy ($MSTR), Sharplink Gaming ($SBET) 這些公司到底背後運作原理是什麼，以及為什麽我們正在經歷資本市場史上最有趣的金融革命，以及泡沫。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/800/1*G6CpsUYC4xJ8wfqDVxW9rw.jpeg&#34; alt=&#34;ss&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;華爾街正在瘋狂擁抱加密貨幣。&lt;/p&gt;&#xA;&lt;p&gt;六月份寫了 Circle 上市的文章中分析了華爾街是如何重度押注在穩定幣賽道上，文章中我詳細分析了資本市場擁抱 Circle 的主要原因以及風險。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://johnny-chuang.medium.com/circle-crcl-%E8%82%A1%E5%83%B9%E7%8B%82%E6%BC%B2-7-%E5%80%8D-%E6%98%AF%E6%B3%A1%E6%B2%AB%E9%82%84%E6%98%AF%E7%A9%A9%E5%AE%9A%E5%B9%A3%E7%9A%84-iphone-%E6%99%82%E5%88%BB-8e0a2715e26b&#34;&gt;&lt;strong&gt;Circle ($CRCL) 股價狂漲 7 倍 — 是泡沫還是穩定幣的 iPhone 時刻&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;（題外話，文章發布後 (6/22) 到現在跌了 31%，謝謝市場沒有讓我看起來像個小丑）&#xA;&lt;img src=&#34;2tradingview.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;與此同時，大量資本也正在湧入另外一股同樣瘋狂的浪潮：那些直接在資產負債表上囤積加密貨幣的公司們，如 MicroStrategy, Sharplink Gaming 等，市場開始給他們一個新的名字：&lt;strong&gt;Digital Asset Treasuries (DAT)&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;大部分會被歸類為在 DAT 的公司，其不外乎是本業表現不佳的上市公司，或是 2025 年開始有許多直接不演了，透過借殼直接上市開始瘋狂購入不同的加密貨幣資產來作為儲備。有趣的是，這些操作表面上看起來像是市場情緒的瘋狂追價，但仔細研究會發現，這其實是&lt;strong&gt;包含精密財務槓桿、流通股本管理、資本市場運營、甚至政策博弈等多重元素的「金融工程作品」&lt;/strong&gt;，是一種結合敘事操作與資本槓桿玩到極致的策略。&lt;/p&gt;&#xA;&lt;p&gt;這篇文章是我開啟的一個新系列：Digital Asset Treasuries，我將從最基本的歷史講起，並挖掘背後的商業 logique 與財務操作，希望能用最淺顯易懂的方式全面地讓讀者能了解 DAT 背後玩的精妙遊戲。讀完這系列後，我相信你在臉書上看到有人在分享 $MSTR, $SBET 時，能夠冷笑一聲並在內心說：「我早就都讀過了」。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dat-的起源及歷史&#34;&gt;DAT 的起源及歷史&lt;/h2&gt;&#xA;&lt;p&gt;廣義的 DAT 可以追溯到 2020–2021 年那一波牛市。當時比特幣首次真正進入大眾視野、金融媒體與機構資產配置的討論範圍。那段時期「比特幣作為企業儲備資產」這個敘事開始被少數先行者實踐。而在這些先行者中，最關鍵、也是後續所有 DAT 模型的源頭，就是 MicroStrategy（$MSTR）的瘋狂實驗。&lt;/p&gt;&#xA;&lt;h3 id=&#34;microstrategy一家本來沒人在乎的-bi-軟體公司&#34;&gt;MicroStrategy：一家本來沒人在乎的 BI 軟體公司&lt;/h3&gt;&#xA;&lt;p&gt;在進入比特幣世界之前，MicroStrategy 是一家典型的老牌 B2B 軟體公司。它成立於 1989 年，主營商業智慧（BI）分析平台，曾是 2000 年網路泡沫時代最炙手可熱的明星。然而，就在最巔峰時，公司被踢爆其財報存在嚴重會計問題，被迫重述營收，從『高速增長』打回『連續虧損』的原形，導致股價單日崩盤超過 60%。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Circle ($CRCL) 股價狂漲 7 倍 — 是泡沫還是穩定幣的 iPhone 時刻</title>
-      <link>http://localhost:1313/posts/circle-ipo/</link>
+      <link>https://tyc.tw/posts/circle-ipo/</link>
       <pubDate>Sun, 22 Jun 2025 19:45:36 +0800</pubDate>
-      <guid>http://localhost:1313/posts/circle-ipo/</guid>
+      <guid>https://tyc.tw/posts/circle-ipo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;circle_1.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.circle.com/&#34;&gt;Circle ($CRCL)&lt;/a&gt;，美元穩定幣 USDC 的發行商，自 6 月 5 日在紐約證交所上市以來，&lt;strong&gt;股價從 IPO 發行價 31 美元一路飆升至超過 240 美元，漲幅高達近 675%，市值突破 500 億美元&lt;/strong&gt;。這樣的漲勢在美股市場中堪稱現象級，特別是在加密貨幣與傳統金融交匯的領域，Circle 被冠以「穩定幣第一梯隊」的稱號，成為過去兩週美股市場中最閃亮的那顆星。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;circle_2.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;How to lose&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;在這篇文章中，我想要透過分享 &lt;strong&gt;Circle 的生意本質&lt;/strong&gt;，以及&lt;strong&gt;三個利好&lt;/strong&gt;來幫助大家更了解 Circle 近期股價不斷上漲的原因。同時，我也將點出從招股書、行業現狀我所看到的&lt;strong&gt;三個風險&lt;/strong&gt;來進行完整的分析。&lt;/p&gt;&#xA;&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;我認為 Circle 目前極度 overpriced （截至 6/22 寫稿的當下，收盤價為 $240.28），市場似乎 overindex on GENIUS 法案通過對 Circle 的利好，但 Circle 和 Coinbase 之間的近乎不平等條約長期上仍為限制 Circle 發展的緊箍咒，且 Circle 本身將面臨降息循環，以及多個穩定幣梯隊前仆後繼的競爭，目前我個人的認知是股價正被嚴重高估，泡沫結束後的踩踏效應會非常嚴重。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;circle-的生意本質透過發行穩定幣來穩定賺取利差&#34;&gt;Circle 的生意本質：透過發行穩定幣來穩定賺取利差&lt;/h2&gt;&#xA;&lt;p&gt;Circle 的生意模式非常簡單粗暴：用戶存入 $1 的美金給 Circle，Circle 便會發行 1 個 USDC，一種與美元 1:1 掛鉤的穩定幣，在不同的應用場景中供用戶使用（如DeFi、鏈上轉帳、 Settlement 等）。Circle 背後再將這些用戶存入的美金透過購入短債來賺取利息。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;circle_3.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>

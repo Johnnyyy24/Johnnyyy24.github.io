@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DAT Series on Johnny&#39;s</title>
-    <link>http://localhost:1313/series/dat-series/</link>
+    <link>https://tyc.tw/series/dat-series/</link>
     <description>Recent content in DAT Series on Johnny&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
     <lastBuildDate>Sat, 16 Aug 2025 11:56:29 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/series/dat-series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tyc.tw/series/dat-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Asset Treasuries （三）MicroStrategy 的普通股與 BTC Yield</title>
-      <link>http://localhost:1313/posts/dat-3/</link>
+      <link>https://tyc.tw/posts/dat-3/</link>
       <pubDate>Sat, 16 Aug 2025 11:56:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dat-3/</guid>
+      <guid>https://tyc.tw/posts/dat-3/</guid>
       <description>&lt;p&gt;上一篇文章中，我們 Cover 了 MicroStrategy 的兩大募資殺招：可轉債及特別股。而其第三招為發行普通股。但在那之前，我們先了解一下 MicroStrategy 的 mNAV 的概念：&lt;/p&gt;&#xA;&lt;h2 id=&#34;mnav&#34;&gt;mNAV&lt;/h2&gt;&#xA;&lt;p&gt;mNAV 是 MSTR 訂出的一個新指標，算法是把整個 MSTR 的 Enterprise Value / Held $BTC Value，概念上有點類似於傳統估值的 P/B。其中分子的 Enterprise 定義如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(A) + 全部已發行 MSTR 普通股（A 類 + B 類）的總市值 = 已發行股數 × A 類股在 Nasdaq 的收盤價&lt;/li&gt;&#xA;&lt;li&gt;(B) + 公司所有債務本金總額&lt;/li&gt;&#xA;&lt;li&gt;(C) + 公司所有永續優先股的名義總價值&lt;/li&gt;&#xA;&lt;li&gt;(D) − 公司最近一次披露的現金餘額&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;從這個公式可以看出，mNAV 大概可以解釋為「根據 MSTR 持有的 $BTC，市場願意給其估值的倍數」。目前 MSTR 的 mNAV 約為 1.64，而歷史上則約在 1-4 之間徘徊。此外，如 Strategy Tracker 這種網站也會用 NAV Premium （定義：MSTR market cap / Held $BTC value）的概念來評估 MSTR 的估值倍數：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Asset Treasuries （二）MicroStrategy 的可轉債及特別股</title>
-      <link>http://localhost:1313/posts/dat-2/</link>
+      <link>https://tyc.tw/posts/dat-2/</link>
       <pubDate>Thu, 14 Aug 2025 11:56:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dat-2/</guid>
+      <guid>https://tyc.tw/posts/dat-2/</guid>
       <description>&lt;p&gt;在上一篇文章中，我們討論了 DAT 的歷史以及其演化，並在結尾處我們總結了 DAT 玩的核心遊戲。&lt;/p&gt;&#xA;&lt;p&gt;接下來，我們將細細拆解最引人注目，也是最成功的 DAT 代表：MicroStrategy ($MSTR)，是如何透過金融工程創造出比特幣的永動機。在這篇文章中，我們將解釋 MSTR 融資的三大手段中的其中兩個：&lt;strong&gt;發行可轉債及特別股。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mstr-的商業模式簡述&#34;&gt;MSTR 的商業模式簡述&lt;/h2&gt;&#xA;&lt;p&gt;首先，MSTR 的「商業模式」非常簡單粗暴，簡單畫圖表示如下：&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;mstr-1.png&#34; alt=&#34;mstr-flow&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;基本上三個動作：借錢、買比特幣，創造出更多 Leverage on capital market。&lt;/p&gt;&#xA;&lt;p&gt;買比特幣本身只是一個簡單的操作，這套模式真正的重點在於「錢從哪裡來？」以及「槓桿是如何被創造的？」。&lt;/p&gt;&#xA;&lt;h2 id=&#34;mstr-的唯一目標&#34;&gt;MSTR 的唯一目標&lt;/h2&gt;&#xA;&lt;p&gt;MSTR 的 Founder Michael Saylor 為 Strategy 創造出了一個很有趣的名詞：BTC Yield（比特幣收益率）。BTC Yield 和我們熟知的 DeFi 收益率定義不同，Michael Saylor 的定義為「在單位時間內，每一股 MSTR 所持有的 $BTC 的變化量」。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;而 MSTR 的唯一北極星、唯一使命，就是持續為股東持續創造出 BTC Yield&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;舉例來說，假設一年前每股 MSTR 股東算下來平均持有 0.1 個 $BTC，到了今天平均每股變成 0.2 個 $BTC，在 Saylor 的定義裡面，&lt;strong&gt;這一年 MSTR 的 BTC Yield 即為 100%&lt;/strong&gt;。要打個比方的話，我認為概念類似從&lt;strong&gt;幣本位&lt;/strong&gt;思考的收益率。&lt;/p&gt;&#xA;&lt;p&gt;但請先記住這個概念，因其將貫穿整篇文章，以及 MSTR 整間公司做的所有事情：&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;「MSTR 所做的一切都是為了創造持續性的 BTC Yield」。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Asset Treasuries （一）起源及入門知識</title>
-      <link>http://localhost:1313/posts/dat-1/</link>
+      <link>https://tyc.tw/posts/dat-1/</link>
       <pubDate>Sun, 03 Aug 2025 17:56:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dat-1/</guid>
+      <guid>https://tyc.tw/posts/dat-1/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;在這系列文章中，我將分析 Digital Asset Treasuries (DAT) 公司的核心架構，讓你讀懂 MicroStrategy ($MSTR), Sharplink Gaming ($SBET) 這些公司到底背後運作原理是什麼，以及為什麽我們正在經歷資本市場史上最有趣的金融革命，以及泡沫。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/800/1*G6CpsUYC4xJ8wfqDVxW9rw.jpeg&#34; alt=&#34;ss&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;華爾街正在瘋狂擁抱加密貨幣。&lt;/p&gt;&#xA;&lt;p&gt;六月份寫了 Circle 上市的文章中分析了華爾街是如何重度押注在穩定幣賽道上，文章中我詳細分析了資本市場擁抱 Circle 的主要原因以及風險。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://johnny-chuang.medium.com/circle-crcl-%E8%82%A1%E5%83%B9%E7%8B%82%E6%BC%B2-7-%E5%80%8D-%E6%98%AF%E6%B3%A1%E6%B2%AB%E9%82%84%E6%98%AF%E7%A9%A9%E5%AE%9A%E5%B9%A3%E7%9A%84-iphone-%E6%99%82%E5%88%BB-8e0a2715e26b&#34;&gt;&lt;strong&gt;Circle ($CRCL) 股價狂漲 7 倍 — 是泡沫還是穩定幣的 iPhone 時刻&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;（題外話，文章發布後 (6/22) 到現在跌了 31%，謝謝市場沒有讓我看起來像個小丑）&#xA;&lt;img src=&#34;2tradingview.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;與此同時，大量資本也正在湧入另外一股同樣瘋狂的浪潮：那些直接在資產負債表上囤積加密貨幣的公司們，如 MicroStrategy, Sharplink Gaming 等，市場開始給他們一個新的名字：&lt;strong&gt;Digital Asset Treasuries (DAT)&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;大部分會被歸類為在 DAT 的公司，其不外乎是本業表現不佳的上市公司，或是 2025 年開始有許多直接不演了，透過借殼直接上市開始瘋狂購入不同的加密貨幣資產來作為儲備。有趣的是，這些操作表面上看起來像是市場情緒的瘋狂追價，但仔細研究會發現，這其實是&lt;strong&gt;包含精密財務槓桿、流通股本管理、資本市場運營、甚至政策博弈等多重元素的「金融工程作品」&lt;/strong&gt;，是一種結合敘事操作與資本槓桿玩到極致的策略。&lt;/p&gt;&#xA;&lt;p&gt;這篇文章是我開啟的一個新系列：Digital Asset Treasuries，我將從最基本的歷史講起，並挖掘背後的商業 logique 與財務操作，希望能用最淺顯易懂的方式全面地讓讀者能了解 DAT 背後玩的精妙遊戲。讀完這系列後，我相信你在臉書上看到有人在分享 $MSTR, $SBET 時，能夠冷笑一聲並在內心說：「我早就都讀過了」。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dat-的起源及歷史&#34;&gt;DAT 的起源及歷史&lt;/h2&gt;&#xA;&lt;p&gt;廣義的 DAT 可以追溯到 2020–2021 年那一波牛市。當時比特幣首次真正進入大眾視野、金融媒體與機構資產配置的討論範圍。那段時期「比特幣作為企業儲備資產」這個敘事開始被少數先行者實踐。而在這些先行者中，最關鍵、也是後續所有 DAT 模型的源頭，就是 MicroStrategy（$MSTR）的瘋狂實驗。&lt;/p&gt;&#xA;&lt;h3 id=&#34;microstrategy一家本來沒人在乎的-bi-軟體公司&#34;&gt;MicroStrategy：一家本來沒人在乎的 BI 軟體公司&lt;/h3&gt;&#xA;&lt;p&gt;在進入比特幣世界之前，MicroStrategy 是一家典型的老牌 B2B 軟體公司。它成立於 1989 年，主營商業智慧（BI）分析平台，曾是 2000 年網路泡沫時代最炙手可熱的明星。然而，就在最巔峰時，公司被踢爆其財報存在嚴重會計問題，被迫重述營收，從『高速增長』打回『連續虧損』的原形，導致股價單日崩盤超過 60%。&lt;/p&gt;</description>
     </item>
   </channel>

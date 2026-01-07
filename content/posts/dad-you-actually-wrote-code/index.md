@@ -9,6 +9,7 @@ tags:
   - "Web Development"
   - "Digital Ownership"
   - "Creator Economy"
+description: "Building mini-apps with AI agents in 2025: Exploring the AIBJ project, VC automation, and what defines a human's moat in an AI-driven world."
 ---
 
 

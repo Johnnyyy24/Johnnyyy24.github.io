@@ -3,6 +3,7 @@ title = "HIP-3: Democratization of Crypto Brokers"
 date = 2025-11-26T19:45:36+08:00
 draft = false
 series = ["Crypto"]
+description = "Exploring Hyperliquid's HIP-3 and the democratization of crypto brokers: Shifting from liquidity-as-a-service to infrastructure-as-a-service."
 +++
 
 

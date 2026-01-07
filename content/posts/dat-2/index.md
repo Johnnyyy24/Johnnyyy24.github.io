@@ -3,6 +3,7 @@ title = "Digital Asset Treasuries （二）MicroStrategy 的可轉債及特別�
 date = 2025-08-14T11:56:29+08:00
 series = ["DAT Series"]
 draft = false
+description = "Digital Asset Treasuries (DAT) 系列第二篇：拆解 MicroStrategy 的融資殺招，探討可轉債與特別股如何助其打造比特幣永動機，並實踐 BTC Yield 的增長。"
 +++
 
 

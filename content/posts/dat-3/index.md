@@ -3,6 +3,7 @@ title = "Digital Asset Treasuries （三）MicroStrategy 的普通股與 BTC Yie
 date = 2025-08-16T11:56:29+08:00
 series = ["DAT Series"]
 draft = false
+description = "Digital Asset Treasuries (DAT) 系列第三篇：深入解析 MicroStrategy 的普通股發行計畫、mNAV 溢價原因，以及這些財務操作如何影響其核心指標 BTC Yield。"
 +++
 
 

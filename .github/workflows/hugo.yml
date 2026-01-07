@@ -49,7 +49,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Build with Hugo
-        run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --baseURL "https://tyc.tw/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Ownership on Johnny&#39;s</title>
-    <link>https://tyc.tw/tags/digital-ownership/</link>
+    <link>http://localhost:1313/tags/digital-ownership/</link>
     <description>Recent content in Digital Ownership on Johnny&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
     <lastBuildDate>Thu, 28 Aug 2025 11:29:14 +0800</lastBuildDate>
-    <atom:link href="https://tyc.tw/tags/digital-ownership/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/digital-ownership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dad, You Actually Wrote Code?</title>
-      <link>https://tyc.tw/posts/dad-you-actually-wrote-code/</link>
+      <link>http://localhost:1313/posts/dad-you-actually-wrote-code/</link>
       <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/posts/dad-you-actually-wrote-code/</guid>
+      <guid>http://localhost:1313/posts/dad-you-actually-wrote-code/</guid>
       <description>&lt;p&gt;I’ve been heads-down the past few weeks building stuff with AI tools and… wow. Multiple takeaways, but the first layer would be the vibe coding stack is already stupidly powerful. If you have even a baby-level grasp of how apps fit together, you can go end-to-end and ship a mini-app. Run a few loops, standardize your favorite backend skeleton, and you can mass-produce. In 2025, going from idea to MVP is literally &lt;em&gt;one step&lt;/em&gt;. Blink and you’re deploying.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Razor-And-Blades Model</title>
-      <link>https://tyc.tw/posts/razor-and-blades-model/</link>
+      <link>http://localhost:1313/posts/razor-and-blades-model/</link>
       <pubDate>Mon, 25 Aug 2025 20:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/posts/razor-and-blades-model/</guid>
+      <guid>http://localhost:1313/posts/razor-and-blades-model/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;razor-1.jpg&#34; alt=&#34;razor-1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For the longest time, I told myself my obsession with startups and venture capital was just my ADHD-addled brain wanting to be cooler than everyone else in my early 20s. But about a year ago, I realized that was bullshit. My real passion is figuring out how money &lt;em&gt;&lt;strong&gt;actually&lt;/strong&gt;&lt;/em&gt; moves and how people build business models that are borderline genius in their deception.&lt;/p&gt;&#xA;&lt;p&gt;I’m talking about the &lt;strong&gt;contrarian&lt;/strong&gt; hustles. The ones where you use a service every day, thinking you know the deal, only to find out their main business is something else entirely. I live for that &lt;em&gt;&lt;strong&gt;&amp;ldquo;oh, you clever lil bitch&amp;rdquo;&lt;/strong&gt;&lt;/em&gt; moment of realization. The most famous example is the one that started it all: the razor-and-blades model.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Left Medium to Build My Own Website</title>
-      <link>https://tyc.tw/posts/why-left-medium/</link>
+      <link>http://localhost:1313/posts/why-left-medium/</link>
       <pubDate>Sun, 10 Aug 2025 17:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/posts/why-left-medium/</guid>
+      <guid>http://localhost:1313/posts/why-left-medium/</guid>
       <description>&lt;p&gt;For the past six years, I&amp;rsquo;ve been writing on Medium, on and off. I&amp;rsquo;ve flirted with other platforms too (Substack, X, you name it). But none of them ever felt right. It never felt like I was in control. At the end of the day, you realize these platforms are just trying to monetize &lt;em&gt;you&lt;/em&gt;, even when you&amp;rsquo;re the one supplying the content for their marketplace. And honestly, that&amp;rsquo;s some serious bullshit.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Johnny&#39;s</title>
-    <link>https://tyc.tw/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Johnny&#39;s</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025 Johnny Chuang. All rights reserved.</copyright>
     <lastBuildDate>Thu, 28 Aug 2025 11:29:14 +0800</lastBuildDate>
-    <atom:link href="https://tyc.tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogging</title>
-      <link>https://tyc.tw/tags/blogging/</link>
+      <link>http://localhost:1313/tags/blogging/</link>
       <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/tags/blogging/</guid>
+      <guid>http://localhost:1313/tags/blogging/</guid>
       <description></description>
     </item>
     <item>
       <title>Creator Economy</title>
-      <link>https://tyc.tw/tags/creator-economy/</link>
+      <link>http://localhost:1313/tags/creator-economy/</link>
       <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/tags/creator-economy/</guid>
+      <guid>http://localhost:1313/tags/creator-economy/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Ownership</title>
-      <link>https://tyc.tw/tags/digital-ownership/</link>
+      <link>http://localhost:1313/tags/digital-ownership/</link>
       <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/tags/digital-ownership/</guid>
+      <guid>http://localhost:1313/tags/digital-ownership/</guid>
       <description></description>
     </item>
     <item>
       <title>Medium</title>
-      <link>https://tyc.tw/tags/medium/</link>
+      <link>http://localhost:1313/tags/medium/</link>
       <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/tags/medium/</guid>
+      <guid>http://localhost:1313/tags/medium/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Development</title>
-      <link>https://tyc.tw/tags/web-development/</link>
+      <link>http://localhost:1313/tags/web-development/</link>
       <pubDate>Thu, 28 Aug 2025 11:29:14 +0800</pubDate>
-      <guid>https://tyc.tw/tags/web-development/</guid>
+      <guid>http://localhost:1313/tags/web-development/</guid>
       <description></description>
     </item>
   </channel>

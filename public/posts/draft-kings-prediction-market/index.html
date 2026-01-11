@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-us" dir="ltr" class="kind-page">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="分析 DraftKings 財報背後的獲利邏輯，拆解 Polymarket 等預測市場該如何從「工具」進化成「生意」。">
+
+    <title>從 DraftKings 財報看 Polymarket 及預測市場</title>
+    <link rel="canonical" href="http://localhost:1313/posts/draft-kings-prediction-market/">
+
+
+
+<meta property="og:title" content="從 DraftKings 財報看 Polymarket 及預測市場">
+<meta property="og:description" content="分析 DraftKings 財報背後的獲利邏輯，拆解 Polymarket 等預測市場該如何從「工具」進化成「生意」。">
+<meta property="og:image" content="http://localhost:1313/og/og-image-1cc696473c4fbbcc69650b31933e46dc.svg">
+<meta property="og:image:type" content="image/svg+xml">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://localhost:1313/posts/draft-kings-prediction-market/">
+<meta property="og:locale" content="en-us">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="從 DraftKings 財報看 Polymarket 及預測市場">
+<meta name="twitter:description" content="分析 DraftKings 財報背後的獲利邏輯，拆解 Polymarket 等預測市場該如何從「工具」進化成「生意」。">
+<meta name="twitter:image" content="http://localhost:1313/og/og-image-1cc696473c4fbbcc69650b31933e46dc.svg">
+
+    <link rel="preload" href="/fonts/Newsreader.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Newsreader-italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/css/default.min.7cf2b9c1994c9982455e0514bfcef87693f541b72b8359792c45c21d67968a34.css" integrity="sha256-fPK5wZlMmYJFXgUUv874dpP1Qbcrg1l5LEXCHWeWijQ=">
+    <link rel="stylesheet" href="/css/custom.min.ea520e01b8311cd3fdd33d21ad525e6301ded034d9ae963b61a1516e09478249.css" integrity="sha256-6lIOAbgxHNP90z0hrVJeYwHe0DTZrpY7YaFRbglHgkk=">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script src="/js/darkmode.min.9211af6d380489c7cf64d4b18a1e49e75be2bebf92031d2165eb6c20bc59c6a2.js" integrity="sha256-khGvbTgEicfPZNSxih5J51vivr&#43;SAx0hZetsILxZxqI=" defer></script>
+    <script src="/js/footnotes.min.e049c26d7ddda424be30c222001b5dbd0890e1bd0659fa171e586e92158e1286.js" integrity="sha256-4EnCbX3dpCS&#43;MMIiABtdvQiQ4b0GWfoXHlhukhWOEoY=" defer></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEY9B2T7QK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZEY9B2T7QK');
+</script>
+</head>
+
+
+<body>
+<header>
+    <div>
+        <h1>
+            <a href="http://localhost:1313/">Johnny&#39;s</a>
+        </h1>
+        <div class="header-controls">
+            <div class="toggle-switch">
+                <input type="checkbox" id="darkModeToggle" class="toggle-input" aria-label="Toggle dark mode">
+                <label for="darkModeToggle" class="toggle-label">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main class="content-wrapper">
+        <article class="content-container">
+
+
+    <h1>從 DraftKings 財報看 Polymarket 及預測市場</h1>
+    <h4>分析 DraftKings 財報背後的獲利邏輯，拆解 Polymarket 等預測市場該如何從「工具」進化成「生意」。</h4>
+    <p class="author-date"><time datetime="2026-01-11T11:45:36+08:00">January 11, 2026</time></p>
+
+<p>最近預測市場（Prediction Markets）在社群上紅透半邊天，Polymarket 的交易量屢創新高，大家似乎都認為這就是 web3 的殺手級應用。然而，在激情過後，身為投資人我們得問一個最俗氣的問題：<strong>這東西到底怎麼變成一門賺錢的生意？</strong></p>
+<p>很多人以為預測市場就是「讓大家賭一把」，但如果我們把視角轉向體育博彩巨頭 DraftKings ($DKNG) 的 Financials，會發現真正的「賺錢密碼」藏在更底層的數學結構裡。</p>
+<p>在這篇文章中，我想要透過 DraftKings 的真實財報數字（Handle, Hold, Margin），來幫大家 Reverse Engineer 預測市場未來的 Playbook。同時，我也將點出目前預測市場模式中，那些被過度忽略的結構性風險。</p>
+<h3 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h3>
+<p>我認為目前的預測市場雖然流量巨大，但從 Business Model 的角度來看極度 Under-monetized。市場正微過度買單「群眾智慧」的敘事，卻忽略了 DraftKings 已經驗證過的真理：單純的 Binary Option（是非題）是很難賺錢的。</p>
+<p>DraftKings 25Q3 的數據告訴我們，真正的 Alpha 來自於 Structure Hold（結構性持有率）以及 Cross-sell to iGaming。如果預測市場不能從「單一事件預測」轉型為「複雜敘事組合（Parlay）」，那它充其量只是下一個低利潤的造市商，而非我們期待的 Cash Cow。</p>
+<h2 id="draftkings-的生意本質volume-is-vanity-hold-is-sanity">DraftKings 的生意本質：Volume is Vanity, Hold is Sanity<a hidden class="anchor" aria-hidden="true" href="#draftkings-的生意本質volume-is-vanity-hold-is-sanity">#</a></h2>
+<p>DraftKings 的生意模式非常簡單粗暴：<strong>用體育賽事當作流量入口，透過操盤手的賠率優勢（Vig）賺取穩定價差，再把用戶導流去玩利潤更高的賭場遊戲。</strong></p>
+<p>將 DraftKings 25Q3 的財報攤開來看，這季的數字非常誠實地揭露了這個行業的底層邏輯：</p>
+<ul>
+<li>
+<p>Revenue (Topline): $1.14B (年增 4.4%)</p>
+</li>
+<li>
+<p>Sportsbook Handle (總流水): $11.4B</p>
+</li>
+<li>
+<p>Net Revenue Margin (Take Rate): ~5.2%</p>
+</li>
+</ul>
+<p>這個數據告訴我們什麼？DraftKings 創造了 114 億美金的流水，才換來約 6 億美金 的體育博彩營收。這是一個典型的「高流水、低毛利」生意。</p>
+<p>用資產管理的模式來思考，目前 Polymarket 這種預測市場大多只收取極低的交易費（或是依賴 USDC 的利息做 Treasury Management 的套利），這就像是在做 Charity。如果只靠 1-2% 的費用，你需要天文數字的交易量才能支撐一家獨角獸公司。</p>
+<p><em>⮕ Lesson 1: 預測市場不能只做「訊息發現的工具」，必須進化成「高流動性的交易引擎」。沒有百億級別的 Handle，就沒有具備規模的 Revenue。</em></p>
+<h2 id="那為什麼-draftkings-能賺錢">那為什麼 DraftKings 能賺錢？<a hidden class="anchor" aria-hidden="true" href="#那為什麼-draftkings-能賺錢">#</a></h2>
+<h3 id="alpha-1逃離-vig-的陷阱擁抱-parlay">Alpha #1：逃離 &ldquo;Vig&rdquo; 的陷阱，擁抱 Parlay<a hidden class="anchor" aria-hidden="true" href="#alpha-1逃離-vig-的陷阱擁抱-parlay">#</a></h3>
+<p>我們都知道標準的博彩賠率（例如兩邊 -110）內建的數學優勢（Vig）大約只有 <strong>4.76%</strong>。這就是 DraftKings 的地板。</p>
+<p>但在 Earnings Call 中，管理層反覆強調一個詞：<em>Structure Hold (結構性持有率)</em>。 為什麼 DraftKings 能把 Margin 做高？靠的不是單場比賽的 Vig，而是 <strong>Same Game Parlay (SGP, 同場過關)</strong>。</p>
+<ul>
+<li>
+<p>單注 (Single Bet): 低 Margin (~5%)，玩家容易贏，賭場賺辛苦錢。</p>
+</li>
+<li>
+<p>串關 (Parlay/SGP): 極高 Margin (20-30%)，將多個低機率事件打包。</p>
+</li>
+</ul>
+<p>這給預測市場的啟示是： 現在的預測市場大多是 Binary（川普贏/輸）。這就像早期的體育博彩，Margin 極低。 未來的預測市場若要賺大錢，必須推出 &ldquo;Prediction Parlays&rdquo; (敘事組合包)。</p>
+<p>舉個例子，現在大部分的預測市場都問 <!-- raw HTML omitted --> &ldquo;川普會當選嗎？&rdquo; (Yes/No)。而未來的組合會是 &ldquo;川普當選 AND 比特幣年底破 10萬 AND 聯準會降息&rdquo;。這種「敘事打包」不僅能滿足用戶的宏觀預測慾望（Degen 心理），更能大幅拉高平台的 Take Rate。這才是從 Tool 變成 Casino 的關鍵躍遷。</p>
+<h3 id="alpha-2igaming-是隱藏的金礦-the-backend-monetization">Alpha #2：iGaming 是隱藏的金礦 (The Backend Monetization)<a hidden class="anchor" aria-hidden="true" href="#alpha-2igaming-是隱藏的金礦-the-backend-monetization">#</a></h3>
+<p>這一點可能很多人沒注意到。在 DraftKings Q3 的 $1.14B 營收中，雖然體育博彩 (Sportsbook) 佔了 ~52%，但 <strong>iGaming (線上賭場) 貢獻了驚人的 ~40%</strong>，且 iGaming 的利潤率通常更高、波動更小。</p>
+<p>這揭示了一個殘酷的現實：體育（或政治預測）是用來獲客 (Acquire) 的，<strong>賭場是用來變現 (Monetize) 的</strong>。</p>
+<p>預測市場目前面臨「事件枯竭期」（例如選後流量暴跌）。成功的平台最終可能會演化成：前端用高熱度的社會議題（戰爭、選舉）吸流量，後端提供<strong>高頻率的金融衍生品或 Crypto 投機產品（類似 iGaming 的角色）</strong>。</p>
+<h2 id="風險預測市場面臨的-headwinds">風險：預測市場面臨的 Headwinds<a hidden class="anchor" aria-hidden="true" href="#風險預測市場面臨的-headwinds">#</a></h2>
+<p>講完了 DraftKings 給的 Playbook，現在來講一下投資或參與預測市場本身的一些風險來平衡報導。</p>
+<h3 id="風險一流動性碎片化的死結">風險一：流動性碎片化的死結<a hidden class="anchor" aria-hidden="true" href="#風險一流動性碎片化的死結">#</a></h3>
+<p>DraftKings 的優勢在於，NBA 就是 NBA，所有人的盤口都差不多，流動性是集中的。但預測市場的問題在於「定義」。</p>
+<p>&ldquo;Will Bitcoin hit 100k?&rdquo; 和 &ldquo;Will Bitcoin hit 100k on Binance?&rdquo; 可能是兩個完全不同的合約。當題目可以無限生成，流動性就會被無限稀釋。對於想要做大 Handle 的平台來說，流動性碎片化 (Fragmentation) 會導致造市商 (MM) 的成本極高，進而影響用戶的體驗（Spread 變大）。</p>
+<h3 id="風險二缺乏-recurring-revenue-的事件驅動特性">風險二：缺乏 Recurring Revenue 的事件驅動特性<a hidden class="anchor" aria-hidden="true" href="#風險二缺乏-recurring-revenue-的事件驅動特性">#</a></h3>
+<p>體育博彩之所以能成為上市公司，是因為 NBA、NFL 每年都會打，它有穩定的 Seasonality。</p>
+<p>但預測市場目前高度依賴「黑天鵝」或「大選」。2024 大選過後，Polymarket 的流量肉眼可見地回調。如果沒有建立起類似 iGaming 那種 High-frequency 的常態性賭局，預測市場很難撐起像 DraftKings 這樣穩定的股價表現。</p>
+<h3 id="風險三監管的達摩克利斯之劍">風險三：監管的達摩克利斯之劍<a hidden class="anchor" aria-hidden="true" href="#風險三監管的達摩克利斯之劍">#</a></h3>
+<p>DraftKings 之所以能做大，是因為它花了無數資源在 State-by-State 的合規上。目前預測市場大多還在 Grey Area 遊走（如 CFTC 對 Kalshi 的態度反反覆覆）。</p>
+<p>一旦 GENIUS 法案或是其他監管框架落地，合規成本將會大幅壓縮 Margin。這時候，那些沒有強大 Legal Team 或足夠 Cash Reserve 的小型預測平台，很有可能會直接被洗出場。</p>
+<h2 id="結語">結語<a hidden class="anchor" aria-hidden="true" href="#結語">#</a></h2>
+<p>Don&rsquo;t get me wrong, 我堅定相信預測市場會是 Crypto 極為少數的 PMF 之一（PMF 三原色：數位黃金、炒作、穩定幣及支付）。而見其終於有了出圈的跡象是非常欣慰的。這代表我們離 Efficient Market Hypothesis 更近了一步。</p>
+<p>然而，Call back 到我通篇的論點：流量不等於利潤。未來的預測市場贏家，不會是那個題目最多的平台。成功把用戶 attention 轉化成各種額外高毛利賭博的人才會是贏家。</p>
+
+
+
+        </article>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <p>Copyright © 2025 Johnny Chuang. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>

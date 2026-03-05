@@ -1,5 +1,5 @@
 ---
-title: "撲克業內人士的賺錢方式，跟 Crypto 圈其實一模一樣"
+title: "撲克圈跟 Crypto 圈其實是同一個遊戲"
 date: 2026-03-05T00:00:00+08:00
 series: ["Thoughts"]
 draft: false

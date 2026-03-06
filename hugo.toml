@@ -19,4 +19,4 @@ copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
 
 # --- Custom Series Order ---
 [params.series_order]
-  order = ["DAT Series", "Crypto","Thoughts"]
+  order = ["DAT Series", "Crypto","Thoughts", "Vertical AI"]

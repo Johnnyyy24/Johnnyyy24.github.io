@@ -1,11 +1,10 @@
 baseURL = "https://tyc.tw/"
-languageCode = "en-us"
+languageCode = "zh-tw"
 title = "Johnny's"
-theme = "dario" 
+theme = "dario"
 preserveTaxonomyNames = true
 
 copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
-
 
 [taxonomies]
   series = "series"
@@ -16,6 +15,14 @@ copyright = "Copyright © 2025 Johnny Chuang. All rights reserved."
 [services]
   [services.googleAnalytics]
     ID = "G-ZEY9B2T7QK"
+
+# --- Author Info (used by JSON-LD) ---
+[params]
+  description = "Johnny Chuang 的部落格，深度分析科技、加密貨幣與資本市場。"
+
+[params.author]
+  name = "Johnny Chuang"
+  twitter = "@johnny_tyc"
 
 # --- Custom Series Order ---
 [params.series_order]

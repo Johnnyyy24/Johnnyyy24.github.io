@@ -12,6 +12,8 @@ tags:
 description: "Jupiter just launched Jupiter Poker. At face value, it's easy to dismiss this as just another RWA product. But I think that framing misses the point entirely."
 ---
 
+![](img-0.jpg)
+
 [@JupiterExchange](https://x.com/@JupiterExchange) just launched Jupiter Poker. At face value, it's easy to dismiss this as just another RWA product in a long line of "we're putting X on-chain" announcements.
 
 But I think that framing misses the point entirely.
@@ -35,8 +37,6 @@ Then there's 18th-century English prizefighting. Long before boxing had governin
 More recently, record labels perfected this model in the 20th century: front a promising artist with a recording advance, own a slice of their future royalties in return. The artist gets capital to operate; the label gets upside on their career trajectory. ISA programs at coding bootcamps, sports agents negotiating signing bonuses, Hollywood studios locking actors into multi-picture deals — all variations on the same theme.
 
 ![](img-3.webp)
-
-![](img-4.webp)
 
 **The underlying economic desire has never changed.** What has always held these markets back is the plumbing.
 
@@ -76,7 +76,7 @@ Because poker is one of the highest-variance games in existence, and tournament 
 
 Sometimes, you get a "bad beat" — you might lose to a hand you had completely dominated, at the worst possible moment.
 
-![](img-0.jpg)
+![](img-4.webp)
 
 Even the most elite professionals operate in a reality where a six-month downswing is statistically unremarkable. Given this, selling action serves two critical purposes:
 

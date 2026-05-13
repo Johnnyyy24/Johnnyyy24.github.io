@@ -30,19 +30,16 @@ The idea of financially backing another person's future output isn't new. In fac
 
 In ancient Rome, the *lanista* — a gladiator trainer and promoter — would purchase, train, and lease out fighters to arena organizers. Wealthy Roman citizens would back these gladiatorial schools as investment vehicles, effectively buying fractional stakes in a pool of human performance.
 
-> Src: https://x.com/archaeologyart/status/1252814401318449153
 
 ![](img-2.webp)
 
 Then there's 18th-century English prizefighting. Long before boxing had governing bodies or sanctioned title fights, the sport ran entirely on a private staking economy. A wealthy backer (often a nobleman looking for both sport and profit) would fund a promising fighter: paying for his training, his lodging, his travel to the fight, and crucially, the stake money put up as a financial guarantee for the bout. In return, the backer received a negotiated share of the prize purse if his fighter won. The Pugilistic Club, founded in London in 1814, was essentially the first formalized version of this: a consortium of aristocratic backers creating structure around what had previously been purely informal arrangements.
 
-> Src: https://supersoldierproject.com/prizefighter-from-bloodsport-to-modern-boxing/
 
 ![](img-3.webp)
 
 More recently, record labels perfected this model in the 20th century: front a promising artist with a recording advance, own a slice of their future royalties in return. The artist gets capital to operate; the label gets upside on their career trajectory. ISA programs at coding bootcamps, sports agents negotiating signing bonuses, Hollywood studios locking actors into multi-picture deals — all variations on the same theme.
 
-> Src: https://www.billboard.com/lists/hip-hop-record-labels/
 
 **The underlying economic desire has never changed.** What has always held these markets back is the plumbing.
 
@@ -84,7 +81,6 @@ Because poker is one of the highest-variance games in existence, and tournament 
 
 Sometimes, you get a "bad beat" — you might lose to a hand you had completely dominated, at the worst possible moment.
 
-> Src: https://www.gipsyteam.com/news/25-11-2024/gambledore-the-wizard-vladimir-korzinin-s-sensational-debut-in-monte-carlo
 
 Even the most elite professionals operate in a reality where a six-month downswing is statistically unremarkable. Given this, selling action serves two critical purposes:
 

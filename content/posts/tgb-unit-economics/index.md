@@ -1,5 +1,5 @@
 ---
-title: "如果 TGB 是一家公司，它一年能賺多少錢？"
+title: "TGB/台灣籃球假日聯盟一年能賺多少錢？"
 date: 2026-05-26T00:00:00+08:00
 series: ["Thoughts"]
 draft: false

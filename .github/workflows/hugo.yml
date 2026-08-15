@@ -49,7 +49,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Build with Hugo
-        run: hugo --baseURL "https://tyc.tw/"
+        run: hugo --baseURL "https://tyc.tw/" --cleanDestinationDir
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

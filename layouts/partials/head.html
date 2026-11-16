@@ -12,7 +12,7 @@
     <title>{{ $page.title }}</title>
 
     {{- if or (strings.HasSuffix .RelPermalink "/404.html") (in (slice "taxonomy" "term") .Kind) }}
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, follow">
     {{- else }}
     <link rel="canonical" href="{{ .Permalink }}">
 

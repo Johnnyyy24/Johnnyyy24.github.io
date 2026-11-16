@@ -16,7 +16,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 
 六月份寫了 Circle 上市的文章中分析了華爾街是如何重度押注在穩定幣賽道上，文章中我詳細分析了資本市場擁抱 Circle 的主要原因以及風險。
 
-[**Circle ($CRCL) 股價狂漲 7 倍 — 是泡沫還是穩定幣的 iPhone 時刻**](https://johnny-chuang.medium.com/circle-crcl-%E8%82%A1%E5%83%B9%E7%8B%82%E6%BC%B2-7-%E5%80%8D-%E6%98%AF%E6%B3%A1%E6%B2%AB%E9%82%84%E6%98%AF%E7%A9%A9%E5%AE%9A%E5%B9%A3%E7%9A%84-iphone-%E6%99%82%E5%88%BB-8e0a2715e26b)
+[**Circle ($CRCL) 股價狂漲 7 倍 — 是泡沫還是穩定幣的 iPhone 時刻**](/posts/circle-ipo/)
 
 （題外話，文章發布後 (6/22) 到現在跌了 31%，謝謝市場沒有讓我看起來像個小丑）
 ![](2tradingview.png)

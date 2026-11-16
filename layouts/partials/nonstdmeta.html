@@ -1,53 +1,61 @@
+{{- /* Inside <script type="application/ld+json"> Go templates already JSON-encode
+       values (quotes included), so values are output directly — no jsonify. */ -}}
 {{- $author := partial "objects/author.html" . -}}
 {{- $authorName := $author.name | default "Johnny Chuang" -}}
 {{- $siteURL := .Site.BaseURL | strings.TrimSuffix "/" -}}
+{{- $lang := .Params.language | default "zh-TW" -}}
 
 {{- if .IsHome -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": {{ .Site.Title | jsonify }},
-  "url": {{ $siteURL | jsonify }},
-  "description": {{ .Site.Params.description | jsonify }},
+  "name": {{ .Site.Title }},
+  "url": {{ $siteURL }},
+  "description": {{ .Site.Params.description }},
   "inLanguage": "zh-TW",
   "author": {
     "@type": "Person",
-    "name": {{ $authorName | jsonify }},
-    "url": {{ $siteURL | jsonify }}
+    "name": {{ $authorName }},
+    "url": {{ $siteURL }}
   }
 }
 </script>
 {{- else if .IsPage -}}
 {{- $page := partial "objects/page.html" . -}}
-{{- $datePublished := .Date.Format "2006-01-02T15:04:05Z07:00" -}}
-{{- $dateModified := .Lastmod.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $datePublished := .Date.Format "2006-01-02T15:04:05-07:00" -}}
+{{- $dateModified := .Lastmod.Format "2006-01-02T15:04:05-07:00" -}}
+{{- $image := .Params.ogImage | default (partial "og-image.html" .).Permalink | absURL -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": {{ $page.title | jsonify }},
-  "description": {{ $page.description | jsonify }},
-  "url": {{ .Permalink | jsonify }},
-  "datePublished": {{ $datePublished | jsonify }},
-  "dateModified": {{ $dateModified | jsonify }},
-  "inLanguage": "zh-TW",
+  "@type": "BlogPosting",
+  "headline": {{ $page.title | htmlUnescape }},
+  "description": {{ $page.description | htmlUnescape }},
+  "image": {{ $image }},
+  "url": {{ .Permalink }},
+  "datePublished": {{ $datePublished }},
+  "dateModified": {{ $dateModified }},
+  "inLanguage": {{ $lang }},
   "author": {
     "@type": "Person",
-    "name": {{ $authorName | jsonify }},
-    "url": {{ $siteURL | jsonify }}
+    "name": {{ $authorName }},
+    "url": {{ $siteURL }}
   },
   "publisher": {
     "@type": "Person",
-    "name": {{ $authorName | jsonify }},
-    "url": {{ $siteURL | jsonify }}
+    "name": {{ $authorName }},
+    "url": {{ $siteURL }}
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | jsonify }}
+    "@id": {{ .Permalink }}
   }
   {{- with .Params.series }},
-  "articleSection": {{ index . 0 | jsonify }}
+  "articleSection": {{ index . 0 }}
+  {{- end }}
+  {{- with .Params.tags }},
+  "keywords": {{ delimit . ", " }}
   {{- end }}
 }
 </script>

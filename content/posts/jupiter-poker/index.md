@@ -1,4 +1,5 @@
 ---
+language: "en-US"
 title: "Tokenizing Human Capital"
 date: 2026-05-12T00:00:00+08:00
 series: ["Crypto"]
@@ -12,7 +13,7 @@ tags:
 description: "Jupiter just launched Jupiter Poker. At face value, it's easy to dismiss this as just another RWA product. But I think that framing misses the point entirely."
 ---
 
-![](img-0.jpg)
+![Sci-fi scene of a person in a pod connected to cables](img-0.jpg)
 
 [@JupiterExchange](https://x.com/@JupiterExchange) just launched Jupiter Poker. At face value, it's easy to dismiss this as just another RWA product in a long line of "we're putting X on-chain" announcements.
 
@@ -28,15 +29,15 @@ The idea of financially backing another person's future output isn't new. In fac
 
 In ancient Rome, the *lanista* — a gladiator trainer and promoter — would purchase, train, and lease out fighters to arena organizers. Wealthy Roman citizens would back these gladiatorial schools as investment vehicles, effectively buying fractional stakes in a pool of human performance.
 
-![](img-1.jpg)
+![Ancient Roman mosaic of gladiators fighting](img-1.jpg)
 
 Then there's 18th-century English prizefighting. Long before boxing had governing bodies or sanctioned title fights, the sport ran entirely on a private staking economy. A wealthy backer (often a nobleman looking for both sport and profit) would fund a promising fighter: paying for his training, his lodging, his travel to the fight, and crucially, the stake money put up as a financial guarantee for the bout. In return, the backer received a negotiated share of the prize purse if his fighter won. The Pugilistic Club, founded in London in 1814, was essentially the first formalized version of this: a consortium of aristocratic backers creating structure around what had previously been purely informal arrangements.
 
-![](img-2.webp)
+![Engraving of an 18th-century English prizefight watched by a crowd](img-2.webp)
 
 More recently, record labels perfected this model in the 20th century: front a promising artist with a recording advance, own a slice of their future royalties in return. The artist gets capital to operate; the label gets upside on their career trajectory. ISA programs at coding bootcamps, sports agents negotiating signing bonuses, Hollywood studios locking actors into multi-picture deals — all variations on the same theme.
 
-![](img-3.webp)
+![Collage of hip-hop artists representing the record label model](img-3.webp)
 
 **The underlying economic desire has never changed.** What has always held these markets back is the plumbing.
 
@@ -76,7 +77,7 @@ Because poker is one of the highest-variance games in existence, and tournament 
 
 Sometimes, you get a "bad beat" — you might lose to a hand you had completely dominated, at the worst possible moment.
 
-![](img-4.webp)
+![Players at a live poker tournament table](img-4.webp)
 
 Even the most elite professionals operate in a reality where a six-month downswing is statistically unremarkable. Given this, selling action serves two critical purposes:
 
@@ -100,7 +101,7 @@ Applying the three problems from earlier to poker staking:
 
 Jupiter offers a solution that addresses all three, through blockchains. All players on the platform are verified by Triton — you know exactly who you are backing and their track records are guaranteed. Settlement is through USDC on Solana: you receive the proportional payout as soon as the tournament is concluded from a vault. No manual calculation, no waiting on a wire transfer, no trusting anyone to do the right thing.
 
-![](img-5.png)
+![Jupiter Poker's flow: pick live action, buy a piece, track settlement](img-5.png)
 
 ---
 

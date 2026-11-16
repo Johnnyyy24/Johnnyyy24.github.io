@@ -6,11 +6,11 @@ series = ["Crypto"]
 description = "分析 Circle ($CRCL) 上市後的漲勢原因、生意本質以及潛在風險，探討穩定幣市場的未來。"
 +++
 
-![](circle_1.webp)
+![Circle 在紐約證交所上市，交易所外懸掛 Circle 旗幟](circle_1.webp)
 
 [Circle ($CRCL)](https://www.circle.com/)，美元穩定幣 USDC 的發行商，自 6 月 5 日在紐約證交所上市以來，**股價從 IPO 發行價 31 美元一路飆升至超過 240 美元，漲幅高達近 675%，市值突破 500 億美元**。這樣的漲勢在美股市場中堪稱現象級，特別是在加密貨幣與傳統金融交匯的領域，Circle 被冠以「穩定幣第一梯隊」的稱號，成為過去兩週美股市場中最閃亮的那顆星。
 
-![](circle_2.webp)
+![Circle ($CRCL) 上市後兩週的股價走勢圖](circle_2.webp)
 >>>>>>>> *How to lose*
 
 在這篇文章中，我想要透過分享 **Circle 的生意本質**，以及**三個利好**來幫助大家更了解 Circle 近期股價不斷上漲的原因。同時，我也將點出從招股書、行業現狀我所看到的**三個風險**來進行完整的分析。
@@ -21,14 +21,14 @@ description = "分析 Circle ($CRCL) 上市後的漲勢原因、生意本質以�
 ## Circle 的生意本質：透過發行穩定幣來穩定賺取利差
 Circle 的生意模式非常簡單粗暴：用戶存入 $1 的美金給 Circle，Circle 便會發行 1 個 USDC，一種與美元 1:1 掛鉤的穩定幣，在不同的應用場景中供用戶使用（如DeFi、鏈上轉帳、 Settlement 等）。Circle 背後再將這些用戶存入的美金透過購入短債來賺取利息。
 
-![](circle_3.webp)
+![Circle 商業模式圖：用戶存入美元、鑄造 USDC、儲備投資美債賺取利息](circle_3.webp)
 >>>>>>>*src: [digitalfinancebriefing](https://digitalfinancebriefing.substack.com/p/from-token-to-ticker-circles-bet-on-public-market-trust)*
 
 將 Circle 的招股書攤開來看，2024 年幾乎所有營收都來自於賺取利息差這樣的生意模式，用資產管理的模式來思考，他就是一個 AUM-based 的 business model，而每年約可以賺取總 AUM 4–4.5% 的營收。
 
 Circle 的成本部分我們後面還會再展開，但基本上最大宗的成本項為分潤給 distribution channels 的費用，其佔 2024 年總營收約為 60%，而這其中最重要的分潤夥伴為 Coinbase：2024 財年 Circle 約分潤了 9 億美金給 Coinbase。扣掉這樣的 distribution partner cost，以及其他一些零零總總的費用後，Circle 大約是一家一年 top line 能做 16.8 億美金營收、bottom line 能有 1.55 億美金的公司（9.28% 淨利潤率）。
 
-![](circle_4.webp)
+![Circle 2022 至 2024 年損益表（取自 SEC 文件）](circle_4.webp)
 >>>>>>>> *src: SEC*
 
 Circle/USDC 如何運營對在圈子內的人來說早就見怪不怪，大家都知道是一個非常好的生意模式，唯一的問題就是現在看起來非常貴。目前 Circle 的市值為 582.75 億美金，隱含的是 34 倍的 P/S 以及 375 倍的 P/E。
@@ -38,18 +38,18 @@ Circle/USDC 如何運營對在圈子內的人來說早就見怪不怪，大家�
 ## 原因一：華爾街對於穩定幣支付的看好 + 可投資標的稀缺性
 USDC 表面上是個穩定幣，背後隱含的是整體金融體系結算系統的革新。在這篇文章不過度展開整體結算、支付的市場有多大，但我們可以想像，隨著越來越多結算系統選擇使用更快、更便宜的穩定幣，這很大程度會吃掉傳統 Fintech 巨頭的蛋糕，如 VISA、ACH 等等，事實上，從交易量的角度來看，這件事情似乎已經在發生：
 
-![](circle_5.webp)
+![穩定幣過去 12 個月交易量與 PayPal、Visa、ACH 比較圖](circle_5.webp)
 
 因為這些 upsides，從整體市場大小來看，穩定幣的成長似乎是注定將發生的。穩定幣目前總發行量約在兩千五百億美金這個量體，而多家金融機構給出的報告都預測 2028 年整體穩定幣市場會達到兩兆美金（甚至以上）的量體，也就是約三年八倍的成長幅度。
 
-![](circle_6.webp)
+![新聞截圖：渣打銀行預估 2028 年穩定幣供給達 2 兆美元](circle_6.webp)
 
 而現在市場上的狀況比較像是，大家都知道穩定幣很好，接下來幾年市場會不斷變大。而 Circle 作為公開市場上罕見直接和穩定幣強相關，且市佔足夠大的一個標的，自然會受到華爾街的追捧。機構投資人罕見地不只是喊單，而是真正付諸行動更是加劇了這樣的 price action：如 ARK Invest 在 IPO 當日即購入了 448 萬股，BlackRock 也持有了 10% $CRCL IPO 的股份等。
 
 ## 原因二：USDC 為最合規、流通量第二高的穩定幣
 第二個原因則是回到 USDC 本身的產品路線。我們都知道 USDT 是世界上最大的穩定幣，其量體約為 Circle 的 2.5 倍左右（約在 1500 億美金）。然而，老用戶應該都知道 Tether 在過去幾年時不時會被 FUD，主要原因就是因為其背後儲備的審計做的並不透明，甚至最新的儲備中顯示，USDT 約只有 81.5% 為 Cash & T-bills，剩下都 18.5% 投資在貴金屬、Bitcoins 等相對非常 volatile 的 asset class（而諷刺的是這 18.5% 的 alternative reserve 反而為 Tether 帶來大部分的收入）。
 
-![](circle_7.webp)
+![Tether USDT 儲備報告：總資產與儲備資產組成](circle_7.webp)
 >>>>>>>*USDT’s reserve report*
 
 反觀 USDC，從 2019 到現在其蠻明確就是要走美國體系監管合規的道路，隨著近期的 GENIUS 法案箭在弦上，可以預期 USDC 過去所有的合規努力即將開花結果，反觀即使 Tether 在境外有極大的影響力，一但進到美國境內、或是討論到機構採用這件事情，基本上短時間內都不太可能有他們的局。
@@ -75,7 +75,7 @@ GENIUS 法案之所以對 Circle 極為利好，主要原因是其所提到的�
 ### Circle 和 Coinbase 的愛恨情仇
 2018 年，Circle 與 Coinbase 共同創立了 Centre 聯盟，負責發行和管理 USDC 穩定幣。當時雙方是平等的合作夥伴，共同分擔治理與運營責任，並分享 USDC 儲備資產的利息收入。
 
-![](circle_8.webp)
+![Centre 聯盟標誌：由 Circle 與 Coinbase 共同創立](circle_8.webp)
 
 值得一提的是，在當時歷史背景下，實際上穩定幣只是 Circle 其中一個業務，當時他們還有 OTC desk (Circle Trade)、以及 2018 年剛以 4 億美元收購了 Poloniex 這家交易所。然而，隨著 2019 年市場轉熊，Circle 實質上在其他業務是表現極差的，因此最後決定將大部分業務出售，壯士斷腕只保留了核心的穩定幣業務。
 
@@ -91,12 +91,12 @@ GENIUS 法案之所以對 Circle 極為利好，主要原因是其所提到的�
 
 另外一個角度去看，Coinbase 為 Circle 的背書的確為其市佔的增長、以及合規的進程有一定程度的貢獻。另外，一個蠻有趣的角度是，GENIUS 法案通過後這些合規穩定幣並不能派息給投資者，但如果**是透過如 Coinbase 這些銷平台去發放呢**？這並非腦洞大開，事實上，現在 Coinbase 正 offer 其用戶，只要存 10 萬美金以下在自己的 perpetual accounts，Coinbase 便會 offer 這些用戶 12% 的年化收益。對於 Circle 而言，隨著監管框架更加清晰，背靠像 Coinbase 這樣有 distribution 的平台也許不失為一個好的策略，我的猜測，戰略上 Circle 高機率也是先且戰且走。
 
-![](circle_9.webp)
+![Coinbase USDC Boosted Rewards 說明頁面](circle_9.webp)
 
 ## 風險二：穩定幣儼然為紅海市場，抱團取暖風氣盛行
 眾所周知，用穩定幣取代支付、結算場景儼然成為 2025 年這個世界的 Meta，也因此有許多陣營都逐漸成形並想一起吃掉這塊大餅，而伴隨而來的競爭也是 USDC 在未來不得不面對的硬仗：
 
-![](circle_10.webp)
+![主要穩定幣陣營比較表：Tether、Circle、Trump、Stripe、PayPal、JPMorgan](circle_10.webp)
 
 ### Tether 陣營 — 最大穩定幣 + 良好政界關係
 Tether 不用多說，超過 1500 億的發行量以及超過 60% 市占率，前期透過較不合規的方式快速積累資金，近期也開始往合規之路邁進。陣營陣容堅強，包括 Bitfinex、Cantor Fitzgerald （CEO 為 美國新任的商務部長 Howard Lutnick）、Cantor Equity Partners (CEP，另一家透過 SPAC 上市的 MicroStrategy equivalent)，以及比特小鹿（Tether 持股超過 25% 的中國挖礦平台）。
@@ -125,7 +125,7 @@ Paypal 早在 2023 年就發行了 pyUSD，並在去年曾透過透過高的派�
 
 要想規避這樣的風險，其中一個重點是增加 USDC 的 turnover。如 Circle 推出了 Circle Payments Network (CPN) 提供企業跨境結算的服務，這樣生意模式就能從 AUM-based model 轉向 volume-based model，並真正吃到 ACH 的午餐，並極大程度規避其對利率的風險。然而端看 2024 財年 Circle 的收入，仍有高達 96% 的收入是純靠利息收入，Circle 的轉型，以及企業實際在跨境結算的 adoption rate 都還有很長的路要走。
 
-![](circle_11.webp)
+![Circle Payments Network 跨境支付結算流程圖](circle_11.webp)
 
 ## 結語
 身為業界老韭菜，看到傳統金融圈的朋友也開始討論穩定幣，是非常欣慰也 rewarding 的，這代表著我們在這幾年信仰的事情逐漸成真，從目前的 trajectory 看來，反噬回去傳統金融，並將其不效率的部分取代掉這件事情是極有可能成真的。然而，call back 到我通篇的論點，我認為正視並真切認知到 Circle 這家公司本身有的一些風險，再去談 upside 會是更正確的投資方式。

@@ -2,3 +2,12 @@
     /* 將內容最大寬度從預設的 620px 覆蓋成 800px */
     --content-max-width: 800px; 
   }
+.series-nav {
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--border-color);
+}
+
+.series-nav h2 {
+  font-size: 1em;
+}

@@ -1,4 +1,5 @@
 ---
+language: "en-US"
 title: "Why I Left Medium to Build My Own Website"
 date: 2025-08-10T17:29:14+08:00
 series: ["Thoughts"]

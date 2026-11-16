@@ -1,0 +1,57 @@
+{{- /* Builds a 1200x630 PNG share image with the page title. Returns the image resource. */ -}}
+{{- $font := resources.Get "fonts/NotoSansTC-Bold-subset.ttf" -}}
+{{- $size := 68 -}}
+{{- $maxWidth := 1040.0 -}}
+{{- $maxLines := 3 -}}
+
+{{- /* Greedy wrap: CJK chars break anywhere, ASCII words stay together.
+       Widths are estimates in px (CJK = 1em, ASCII ≈ 0.58em). */ -}}
+{{- $lines := slice -}}
+{{- $line := "" -}}
+{{- $lineW := 0.0 -}}
+{{- $word := "" -}}
+{{- $wordW := 0.0 -}}
+{{- $chars := split (printf "%s " .Title) "" -}}
+{{- range $chars -}}
+  {{- $isAscii := lt (len .) 2 -}}
+  {{- if and $isAscii (ne . " ") -}}
+    {{- $word = printf "%s%s" $word . -}}
+    {{- $wordW = add $wordW (mul $size 0.58) -}}
+  {{- else -}}
+    {{- /* flush pending ASCII word */ -}}
+    {{- if $word -}}
+      {{- if and $line (gt (add $lineW $wordW) $maxWidth) -}}
+        {{- $lines = $lines | append (strings.TrimSpace $line) -}}
+        {{- $line = "" -}}{{- $lineW = 0.0 -}}
+      {{- end -}}
+      {{- $line = printf "%s%s" $line $word -}}
+      {{- $lineW = add $lineW $wordW -}}
+      {{- $word = "" -}}{{- $wordW = 0.0 -}}
+    {{- end -}}
+    {{- $w := cond (eq . " ") (mul $size 0.3) (float $size) -}}
+    {{- if and $line (gt (add $lineW $w) $maxWidth) -}}
+      {{- $lines = $lines | append (strings.TrimSpace $line) -}}
+      {{- $line = "" -}}{{- $lineW = 0.0 -}}
+    {{- end -}}
+    {{- if or $line (ne . " ") -}}
+      {{- $line = printf "%s%s" $line . -}}
+      {{- $lineW = add $lineW $w -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with strings.TrimSpace $line }}{{ $lines = $lines | append . }}{{ end -}}
+{{- if gt (len $lines) $maxLines -}}
+  {{- $last := index $lines (sub $maxLines 1) -}}
+  {{- $lines = first (sub $maxLines 1) $lines | append (printf "%s…" (strings.TrimRight " " (substr $last 0 -1))) -}}
+{{- end -}}
+
+{{- $img := resources.Get "images/og-bg.png" -}}
+{{- $lineH := add $size 22 -}}
+{{- $y := 100 -}}
+{{- range $lines -}}
+  {{- $img = $img.Filter (images.Text . (dict "font" $font "size" $size "x" 80 "y" $y "color" "#141413")) -}}
+  {{- $y = add $y $lineH -}}
+{{- end -}}
+{{- $img = $img.Filter (images.Text "tyc.tw · Johnny Chuang" (dict "font" $font "size" 34 "x" 80 "y" 520 "color" "#6b6a65")) -}}
+{{- $img = $img | resources.Copy (printf "og/%s.png" (cond .IsHome "home" .File.ContentBaseName)) -}}
+{{- return $img -}}

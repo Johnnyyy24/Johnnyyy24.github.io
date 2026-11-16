@@ -9,7 +9,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 > 在這系列文章中，我將分析 Digital Asset Treasuries (DAT) 公司的核心架構，讓你讀懂 MicroStrategy ($MSTR), Sharplink Gaming ($SBET) 這些公司到底背後運作原理是什麼，以及為什麽我們正在經歷資本市場史上最有趣的金融革命，以及泡沫。
 
 
-![ss](https://cdn-images-1.medium.com/max/800/1*G6CpsUYC4xJ8wfqDVxW9rw.jpeg)
+![華爾街路牌上印著比特幣標誌](1wall_street.jpg)
 
 
 華爾街正在瘋狂擁抱加密貨幣。
@@ -19,7 +19,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 [**Circle ($CRCL) 股價狂漲 7 倍 — 是泡沫還是穩定幣的 iPhone 時刻**](/posts/circle-ipo/)
 
 （題外話，文章發布後 (6/22) 到現在跌了 31%，謝謝市場沒有讓我看起來像個小丑）
-![](2tradingview.png)
+![Circle ($CRCL) 上市後的股價 K 線圖](2tradingview.png)
 
 
 與此同時，大量資本也正在湧入另外一股同樣瘋狂的浪潮：那些直接在資產負債表上囤積加密貨幣的公司們，如 MicroStrategy, Sharplink Gaming 等，市場開始給他們一個新的名字：**Digital Asset Treasuries (DAT)**。 
@@ -38,7 +38,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 
 從那一刻起，MicroStrategy 便從雲端跌落凡間，從此陷入了長達二十年的沉寂，變成一家在納斯達克被市場遺忘的二線軟體公司。
 
-![](3_mstr_BI.gif)
+![MicroStrategy 商業智慧軟體架構示意圖](3_mstr_BI.gif)
 
 直到 2020 年 8 月，執行長 Michael Saylor 突然宣布，公司已用 2.5 億美元購入 21,454 顆比特幣作為資產儲備，並表示「比特幣是現金的替代品」。這一決定在當時看起來極度非典型：對一間不碰金融業務的 SaaS 公司來說，這根本像是把現金流燃掉去賭運氣。
 
@@ -48,7 +48,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 
 在那之後，MicroStrategy 仍持續買入 $BTC，而隨著市場走入牛市，$BTC 的價格也不斷水漲船高，導致 MicroStrategy 的持有的比特幣越來越值錢。
 
-![](4_strategy_holding.png)
+![Strategy 2020 至 2022 年每次購入比特幣的紀錄表](4_strategy_holding.png)
 
 人們也開始意識到只要比特幣持續上漲， MicroStrategy 這套策略也許能夠達到兩種目的：
 
@@ -57,11 +57,11 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 
 因此，從 MicroStrategy 宣布開始買比特幣後，資本開始湧入 $MSTR，其股價在上個牛市自宣布比特幣儲備到最高點一共漲了八倍。
 
-![](5_bitcoin_mstr_prices.png)
+![MSTR 股價自宣布比特幣儲備後的漲幅走勢圖](5_bitcoin_mstr_prices.png)
 
 而自 2020 年高舉比特幣大旗至今，MicroStrategy 的數位黃金實驗已臻化境。截至 2025 年 7 月底，MicroStrategy 以前所未見的狂熱，將超過 **628,000 枚比特幣**納入其資產負債表，總斥資超過 **460 億美元**。以現價計算，這些比特幣的價值已飆升至近 **710 億美元**，堪稱是全球最極端、最引人注目的 BTC Treasury 模型。
 
-![](6_mstr_holdings.png)
+![MicroStrategy 比特幣持倉、每股 BTC 與 NAV 溢價數據](6_mstr_holdings.png)
 *src: [Strategy Tracker](https://strategytracker.com/mstr/?charts=nav-multiplier%2Cperformance-comparison%2Cbitcoin-price%2Cperformance-nav-premium%2Creserve-chart&timeRange=year)* 
 
 暴雷一下接下來文章的重點，MicroStrategy 的本業是一個極度不賺錢的 SaaS 服務，因此其從來不是「用盈利買幣」，而是將金融工程的藝術發揮到極致，**把市場對比特幣的信仰直接轉化為不斷加碼的槓桿。** 從 2020 年到 2025 年，MSTR 的整體操作如下：
@@ -70,7 +70,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 * 透過「At-The-Market (ATM)」計畫，大規模增發股票，僅 2025 上半年就募得超過 **100 億美元**資金。
 * 創新地發行與比特幣掛鉤的**優先股（如 STRC）**，進一步從資本市場吸金。
 
-![](7_Strategy_atm.png)
+![Strategy 以比特幣儲備為基礎發行多種證券的架構圖](7_Strategy_atm.png)
 
 這一切操作，都是以極低、甚至是零利率的融資成本，換取真金白銀的比特幣現貨頭寸。
 
@@ -83,7 +83,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 1.  **Square (現 Block, $SQ)**：2020 年 Q4 購入 5,000 顆 BTC，並在財報中明確表示此為企業策略性儲備資產。
 2.  **Tesla ($TSLA)**：2021 年 2 月宣布購入 15 億美元比特幣，一度將 BTC 作為可用於買車的支付方式，但後續即因 ESG 與稅務考量部分賣出。
 
-![](8_tesla_bitcoin.png)
+![新聞截圖：Tesla 購入 15 億美元比特幣並計畫接受比特幣付款](8_tesla_bitcoin.png)
 
 這幾次短暫的插花最終都未能延續。原因也很簡單：這些公司的核心業務依然仰賴穩定的現金流與可預測的財報。比特幣上沖下洗的劇烈波動，對財務表現的干擾猶如一顆定時炸彈，讓追求穩健的董事會和投資人難以忍受。
 
@@ -93,7 +93,7 @@ description = "Digital Asset Treasuries (DAT) 系列第一篇：探討 MicroStra
 
 以 $MARA 為例，截至 2025 年中，其持有超過 **50,000 顆比特幣**，成為全世界持有比特幣數量第二多的上市公司（僅次 MicroStrategy）。大部分來源為自挖與策略性市場購買。這些公司逐漸將 $BTC 視為資產與資本操作的組合槓桿工具，用 NAV（Net Asset Value）敘事來構築估值底層。
 
-![mara](https://cdn-images-1.medium.com/max/800/1*zdNOou6_u9CkFS6QRM_-8A.avif)
+![MARA 圖表：2010 年一萬顆比特幣買兩個披薩，如今可讓全美每人一個披薩](9_mara_funny.png)
 
 
 ### 2024–2025 進化形態：借殼、槓桿、萬物皆可 DAT
@@ -125,12 +125,12 @@ Crypto 最強的事情一向都是「可組合性」這件事情。拿 $ETH 為�
 2.  第二層是能夠做 restaking — 可以想像成透過質押自己的 $ETH 來幫一些需要信任假設的基礎建設 （Infrastructure）項目背書，從而賺取額外的收益
 3.  第三層是還能夠將這些 restaking 後所拿到的 token 再存進 lending protocol, Pendle 等協議再繼續獲得提供流動性的收益，甚至能再借出穩定幣來再買入更多 $ETH，不斷將收益疊高
 
-![](10_lido_defi_lego.png)
+![Lido 槓桿質押流程圖：在 Aave 借 ETH、質押取得 stETH 再存入 Balancer](10_lido_defi_lego.png)
 *A simple example of DeFi Lego. Src: Lido*
 
 而這不是我在幻想，Solana 上目前最大的 DAT — DeFi Development Corp ($DFDV) 在一場 Twitter Space 中提到，他們的一大策略是將自己手上持有的 $SOL depoly 回 Solana 的 DeFi 生態系，幫助這些 DeFi 能夠更欣欣向榮後，高機率 $SOL 的價格也會因此而繼續上漲，而 $SOL 的上漲又能夠使他們的資產負債表獲益，創造出一種流動性上的飛輪效應。
 
-![11](https://cdn-images-1.medium.com/max/800/1*b_WDj2WBwE6gGJLndVdWUA.jpeg)
+![迷因圖：你們城裡人真會玩](11_youguysknowhowtoplay.jpg)
 
 ## 簡單點評 — DAT 到底在玩什麼遊戲？
 

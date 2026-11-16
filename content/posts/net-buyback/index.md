@@ -1,4 +1,5 @@
 +++
+language = "en-US"
 title = "Net Buybacks Matter"
 date = 2026-01-08T19:45:36+08:00
 draft = false

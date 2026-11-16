@@ -45,7 +45,7 @@ MSTR 的 Founder Michael Saylor 為 Strategy 創造出了一個很有趣的名�
 
 註解：Convertible Bond 的中文叫做可轉換公司債，投資者將資金借給公司，公司承諾在未來償還本金加上利息之外，投資者還有權利用一個預定好的價格 (Strike Price) 轉換自己的投資額為公司的股權。對投資者而言，這提供了「下有保底（債券本金），上不封頂（股票上漲潛力）」的優勢。
 
-![mstr-3.png](mstr-3.png)
+![MicroStrategy 各期可轉債面額、轉換價與到期日一覽](mstr-3.png)
 
 如上圖所示，我們可以看到每個 CB 都有其當時訂定的 Conversion Price (投資者能以什麼價格轉換成 MSTR 股票)，以及 Maturity （到期日）。針對這樣的債務結構，有幾件事情可以分析及補充：
 
@@ -54,7 +54,7 @@ MSTR 的 Founder Michael Saylor 為 Strategy 創造出了一個很有趣的名�
 3. 大部分 CB 其實是 in the money，代表目前股價比當時訂定的 Conversion Price 還要高，因此對這些投資者來說轉換成股權是理性的決定
 4. 表上沒有完全列出，但實際上 MSTR 目前所發出的 CB 利息都非常低，最貴的是 2032 的 CB 有著 2.25% 的借款利率，但整體來說，**其共計 US$ 8.214B 的 CB，總共的 weighted-average interest rate 為 0.421%** 
 
-![mstr-5.png](mstr-5.png)
+![MicroStrategy 可轉債名目總額與年度利息支出](mstr-5.png)
 
 ### 為什麼機構願意用這麼低廉的利息借錢給 MSTR?
 
@@ -67,7 +67,7 @@ MSTR 的 Founder Michael Saylor 為 Strategy 創造出了一個很有趣的名�
 - MSTR 的做空比例相當高，其 Short % of Float 約為 8.5%，這個數值約為 $TSLA 的 3.2 倍，以及 $AAPL 的 12 倍
 - MSTR 的 options market 超級活躍：Google 的市值約為 MSTR 的 15 倍，但兩者的 Open Interest 數字非常接近。
 
-![mstr-6.png](mstr-6.png)
+![MSTR 與七巨頭、主要指數的選擇權未平倉量與隱含波動率比較](mstr-6.png)
 
 ### 發行 CB 的小結：販賣波動率
 

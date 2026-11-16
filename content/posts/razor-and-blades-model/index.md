@@ -1,4 +1,5 @@
 ---
+language: "en-US"
 title: "Razor-And-Blades Model"
 date: 2025-08-25T20:29:14+08:00
 series: ["Thoughts"]
@@ -27,7 +28,7 @@ And once you start seeing it, you can’t unsee it. Let’s go over a few more:
 
 ## Google
 
-![g-workspace.webp](razor-2.webp)
+![Google Workspace app icons](razor-2.webp)
 
 Alright, let's start with the OG hustle, the one that set the tone for the entire internet. The story is so well-known it's almost boring, but you have to respect the sheer scale of it.
 
@@ -47,17 +48,17 @@ In 24FY, this part of the revenue contributed roughly **66%** of their total net
 ![robinhood financials](razor-3.5.png)
 
 ## Costco
-![截圖 2025-08-22 下午10.50.29.png](razor-4.png)
+![Costco Wholesale logo](razor-4.png)
 
 
 
 Costco is another classic hustle, and it's a beauty. The illusion is that they're a wholesaler, making money by slinging pallets of frozen dumplings. But that's just the front. **The real money-printing machine is the membership fee**. In their 2024 fiscal year, those little plastic cards brought in $4.8 billion, and **that's 65% of their total $7.4 billion profit**. The entire warehouse, from the $1.50 hot dogs to the cheap rotisserie chickens, is just bait to make sure you renew. They're not running a retail business; they're running a subscription service where the products are the marketing.
 
-![截圖 2025-08-25 下午8.36.23.png](razor-5.png)
+![Costco income statement showing membership fees vs. merchandise sales](razor-5.png)
 
 ## Airlines
 
-![10-Most-Popular-Airline-Logos-of-the-World.png](razor-6.png)
+![Logos of major airlines](razor-6.png)
 
 The airline industry runs two masterclass-level hustles simultaneously.
 
@@ -77,13 +78,13 @@ In crypto, I think these kinds of cases are rarer. The space is still heavily sk
 
 Metamask provides easy-to-use hot wallet solution for free, boasting over 100M users in the world now. How Metamask monetizes is mainly through the “in-app swapping fuction”, for users that do not bother to interact with DEXes, they will just use this in-app Metamask swap while paying as high as ~1% fee to Metamask. To date, it has processed over US$ 38B of trading volume. This simple add-in function is steadily generating US$ 50-70M revenue for them each year. 
 
-![截圖 2025-08-25 上午11.49.40.png](razor-7.png)
+![Dune dashboard of MetaMask swap volume and fee revenue over time](razor-7.png)
 
 ### Circle
 
 Stablecoins are another great example. Users enjoy minting and redeeming, as well as the wide distribution networks built by Circle and Tether, while paying almost nothing directly for those services. The real monetization sits in the idle USD reserves at their disposal. By investing that float and earning interest, they generate profits with margins that often look better than traditional banks.
 
-![circle-25q2.jpg](razor-8.jpg)
+![Circle Q2 2025 key financial results and USDC operating metrics](razor-8.jpg)
 
 ## Business Models Rhyme
 
@@ -91,19 +92,19 @@ These examples might sound cliché, but hopefully they spark some thoughts. What
 
 ### Penny Press
 
-![penny-press.jpg](razor-9.jpg)
+![Front page of The New York Herald, an early penny press newspaper](razor-9.jpg)
 
 In the 1830s, [The Sun](https://en.wikipedia.org/wiki/The_New_York_Sun_(historical)) in New York broke through with a one cent newspaper when the average price was six cents. That move shifted the model: the real money was no longer in selling papers but in selling eyeballs to advertisers. More readers meant more ad revenue. Sound familiar? It is essentially the same playbook Google and Facebook run today, or maybe it is better to say Google and Facebook are just the modern Penny Press.
 
 ### Railroads
 
-![railroads.jpg](razor-10.jpg)
+![Historical map of U.S. federal land grants for railroads](razor-10.jpg)
 
 In 19th century America, railroads became the backbone of westward expansion. Tickets were cheap, sometimes even free, because passengers were not the real business. The government granted massive tracts of land to railway companies for every mile of track they laid. Railroads turned around and sold that land to settlers and investors, making real estate their cash cow. The train ride was just the hook, land development was the monetization. When you think about it, this is not far from the way low-cost airlines today lure you with cheap fares but generate profit from baggage fees, seat selection, or loyalty programs.
 
 ### Genoese Banking
 
-![genoese banking.png](razor-11.png)
+![Medieval illustration of Genoese bankers at a counting table](razor-11.png)
 
 Go back even further to Renaissance Italy. Genoese and Venetian bankers offered what looked like a simple service: safe custody for merchants’ gold and silver, often at little or no cost. The real business was in lending out those deposits and earning interest, using other people’s idle capital as fuel for trade and empire. That is the same rhyme you hear in stablecoins today. 
 

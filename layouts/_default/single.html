@@ -1,0 +1,39 @@
+{{- define "main" }}
+    <h1>{{ .Title }}</h1>
+    <h4>{{ .Params.description }}</h4>
+
+    {{- if isset .Params "date" }}
+    <p class="author-date">{{ printf `<time datetime="%s">%s</time>` (.Date.Format "2006-01-02T15:04:05Z07:00") (.Date.Format "January 2, 2006") | safeHTML }}</p>
+    {{- end }}
+
+    {{- if not (.Param "disableAnchoredHeadings") }}
+
+{{ partial "anchored_headings.html" .Content }}
+
+    {{- else }}
+
+{{ .Content }}
+
+    {{- end }}
+
+    {{- /* Same-series posts: internal links help readers and Google find related articles */ -}}
+    {{- $current := . }}
+    {{- $isEn := strings.HasPrefix (.Params.language | default "") "en" }}
+    {{- with .Params.series }}
+    {{- $seriesName := index . 0 }}
+    {{- with site.GetPage (printf "/series/%s" (urlize $seriesName)) }}
+    {{- $others := where .Pages.ByDate.Reverse "Permalink" "ne" $current.Permalink }}
+    {{- with $others }}
+    <nav class="series-nav" aria-label="series">
+        <h2>{{ if $isEn }}More in {{ $seriesName }}{{ else }}{{ $seriesName }} 系列其他文章{{ end }}</h2>
+        <ul>
+            {{- range first 8 . }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- end }}
+        </ul>
+        <p><a href="{{ "/" | relURL }}">{{ if $isEn }}All posts →{{ else }}所有文章 →{{ end }}</a></p>
+    </nav>
+    {{- end }}
+    {{- end }}
+    {{- end }}
+{{- end }}
